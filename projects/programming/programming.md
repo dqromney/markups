@@ -1,3 +1,3 @@
 # My Programming
 
-* [Ministering Application](projects/programming/ministering/Ministering-Application.md)
+* [Ministering Application](ministering/Ministering-Application.md)
