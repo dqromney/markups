@@ -1,4 +1,9 @@
 # markup
 
 ## Links
-[Ministering Application](projects/programming/ministering/Ministering-Application.md)
+
+    These are some links to my persional development services. 
+    
+    [Ministering Application](projects/programming/ministering/Ministering-Application.md)
+    [My Servers](servers/servers.md)
+
