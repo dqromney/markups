@@ -1,5 +1,6 @@
 # Ministering Application Notes
-* Creation Date: 2018/07/20
+Creation Date: 2018/07/20
+
 [Main Menu](../../../README.md)->[Projects](../../projects.md)->[Programming](../programming.md)
 
 #### Description
