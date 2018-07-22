@@ -4,16 +4,16 @@
 
 These are applications used to build and deploy applications.
 
-    [Jenkings](http://192.168.0.45:8080)
+[Jenkings](http://192.168.0.45:8080)
 
 ## Source Repositories
 
 These are applications used to store documentation and source code for applications.
 
-    [BitBucket]()
-    [GitHub](https:/github.com)
+[BitBucket]()
+[GitHub](https:/github.com)
 
 ## More links...
 
-    Blah blah blah
+Blah blah blah
     
