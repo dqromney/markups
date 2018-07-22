@@ -3,7 +3,7 @@
 
 Creation Date: 2018/07/20
 
-#### Description
+## Description
 This application was generated using JHipster 5.1.0, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v5.1.0](https://www.jhipster.tech/documentation-archive/v5.1.0). This application is used to take notes for each elder in a Quorum for the purpose of reporing Ministering Interviews.
 
 ## Development
