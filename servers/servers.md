@@ -1,5 +1,5 @@
 # My Servers
-* [Main Menu](../../../README.md)
+[Main Menu](../../../README.md)
 
 ### Continuous Integration (CI)
 
