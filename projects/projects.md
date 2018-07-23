@@ -1,5 +1,5 @@
 # My Projects
-`@:breadcrumb.md`
+{markdown: ./breadcrumb.md}
 
 ### Links
 

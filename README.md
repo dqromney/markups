@@ -1,5 +1,5 @@
 # David Q. Romney Markup Documentation
-`@:/breadcrumb.md`
+{markdown: ./breadcrumb.md}
 
 These are some links to my persional development services.
 

@@ -1,5 +1,5 @@
 # My Servers
-`@:breadcrumb.md`
+{markdown: ./breadcrumb.md}
 
 ### Continuous Integration (CI)
 
