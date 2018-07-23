@@ -1,5 +1,5 @@
 # My Servers
-`@:./breadcrumb.md`
+`@:breadcrumb.md`
 
 ### Continuous Integration (CI)
 
