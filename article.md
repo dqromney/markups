@@ -1,5 +1,4 @@
 ## Main Menu
-`@:/head.md`
 
 These are some links to my persional development services.
 
