@@ -3,6 +3,7 @@
 `@:/head.md`
 
 This article was loaded at run time.
+{markdown: README.md}
 
 ```html
 <h1>This is HTML</h1>
