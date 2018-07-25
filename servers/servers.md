@@ -22,6 +22,7 @@ These are applications used to store documentation and source code for applicati
 | MacMini 2013 | 192.168.0.47 & 5  | macmini  | Darwin Davids-MacMini.local 16.7.0 Darwin Kernel Version 16.7.0: Thu Jun 15 17:36:27 PDT 2017; root:xnu-3789.70.16~2/RELEASE_X86_64 x86_64 | i7 4GB, 1TB storage  |
 | Macbook Pro 2011 | 192.168.0.48 & 4 | macbookpro11 | Darwin DQR.local 17.4.0 Darwin Kernel Version 17.4.0: Sun Dec 17 09:19:54 PST 2017; root:xnu-4570.41.2~1/RELEASE_X86_64 x86_64 | i7 8 GB, 1TB SSD storage  |
 | Macbook Pro 2013 | varies | macbookpro13 |  | TBD  |
+| Windows 10 | 192.168.0.52 | win10 |  | No shell access yet  |
 
 ### Database Servers
 
