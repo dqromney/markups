@@ -11,3 +11,6 @@ Here are some general tools used to generate content for this MarkServ server.
 
 #### JHipster Tools
 - [JHipster Tech](https://www.jhipster.tech/)
+
+#### Database Tools
+- [MySQL Documentation](https://dev.mysql.com/doc/)
