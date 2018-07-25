@@ -8,6 +8,7 @@ Here are some general tools used to generate content for this MarkServ server.
 - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#hr)
 
 #### JSON Tools
+- [jsonschema2pojo](http://www.jsonschema2pojo.org/)
 
 #### JHipster Tools
 - [JHipster Tech](https://www.jhipster.tech/)
