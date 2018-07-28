@@ -7,5 +7,6 @@ These are some links to my persional development services.
 - [My Projects](projects/projects.md)
 - [My Research](research/research.md)
 - [My Tools](tools/tools.md)
+- [My Guides](guides/guides.md)
 
 
