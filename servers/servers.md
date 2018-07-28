@@ -15,7 +15,7 @@ These are applications used to store documentation and source code for applicati
 * [GitHub](https:/github.com)
 
 ### Home Servers
-| Name  | IP  | Alias  | uname -a  | Description  |
+| Name  | IP  | ssh  | uname -a  | Description  |
 |:-:|:-:|:-:|:-:|:-:|
 | Ubuntu 18.04.1 LTS | 192.168.0.53 | ubunto-64.local | Linux ubuntu-64 4.15.0-29-generic #31-Ubuntu SMP Tue Jul 17 15:39:52 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux | 64-bit 16 GB with 2 TB onboard storage  |
 | Raspberry Pi  | 192.168.0.53 ubuntu-64.local | raspi | Linux raspberrypi 4.9.59-v7+ #1047 SMP Sun Oct 29 12:19:23 GMT 2017 armv7l GNU/Linux  | 64-bit 2 GB with 5 TB store USB drive  |
