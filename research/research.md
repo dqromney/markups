@@ -3,7 +3,7 @@
 
 ### General
 
-- [Aragon](https://aragon.org/foundation/) Distributed Automous Organizations
+- [Aragon](https://aragon.org/foundation/ "DAO") Distributed Automous Organizations
 - [Kafka Quick Start](https://kafka.apache.org/quickstart) A distributed streaming platform
 - [Kong](https://docs.konghq.com/) Web Services Gateway
 - [Docker Documentation](https://docs.docker.com/) Container management
@@ -11,6 +11,7 @@
 - [Things To Do After Installing Debian 9](https://blog.programster.org/things-to-do-after-installing-debian-9) Debian information
 - [jupyter Documentation](https://jupyter.readthedocs.io/en/latest/projects/incubator.html) Python
 - [jupyter youtube](https://www.youtube.com/watch?v=Duicsycntdo) Pyhon
+- [DApps](https://dappsforbeginners.wordpress.com) Decentralized Applications
 
 ### Spring Framework
 - [Spring Documentation](https://docs.spring.io/spring/docs/current/spring-framework-reference/)
