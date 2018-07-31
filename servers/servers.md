@@ -27,4 +27,4 @@ These are applications used to store documentation and source code for applicati
 ### Database Servers
 
 * [MySQL Server](jdbc:mysql://192.168.0.42:3306) ~ jdbc:mysql://192.168.0.42:3306 root/
-    
+* [MySQL Server (Docker)](jdbc:mysql://ubuntu-64.local:3306) ~ jdbc:mysql://ubuntu-64.local:3306 root/
