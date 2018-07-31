@@ -28,3 +28,7 @@ These are applications used to store documentation and source code for applicati
 
 * [MySQL Server](jdbc:mysql://192.168.0.42:3306) ~ jdbc:mysql://192.168.0.42:3306 root/
 * [MySQL Server (Docker)](jdbc:mysql://ubuntu-64.local:3306) ~ jdbc:mysql://ubuntu-64.local:3306 root/
+    * [Some commands](https://github.com/docker-library/mysql/issues/230) to make DB available to outside users.
+    * (Docker shell) bash-4.2# mysql --user=root --password=<mypassword>
+    *  mysql> SELECT User,authentication_string FROM mysql.user;
+    *  mysql> GRANT USAGE ON *.* TO 'root'@'%'
