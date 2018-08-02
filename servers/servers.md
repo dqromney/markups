@@ -2,10 +2,18 @@
 {markdown: ./breadcrumb.md}
 
 ### Continuous Integration (CI)
-
 These are applications used to build and deploy applications.
+* [Jenkins Server (Ubuntu-64)](http://192.168.0.53:8080/)
+* [Jenkins Server (Debian-32)](http://192.168.0.45:8080/)
 
-* [Jenkins](http://192.168.0.45:8080)
+### Database Servers
+
+* [MySQL Server](jdbc:mysql://192.168.0.42:3306) ~ jdbc:mysql://192.168.0.42:3306 root/
+* [MySQL Server (Docker)](jdbc:mysql://ubuntu-64.local:3306) ~ jdbc:mysql://ubuntu-64.local:3306 root/
+    * [Some commands](https://github.com/docker-library/mysql/issues/230) to make DB available to outside users.
+    * (Docker shell) bash-4.2# mysql --user=root --password=somepassword
+    *  mysql> SELECT User,authentication_string FROM mysql.user;
+    *  mysql> GRANT USAGE ON *.* TO 'root'@'%'
 
 ### Source Repositories
 
@@ -23,16 +31,3 @@ These are applications used to store documentation and source code for applicati
 | MacMini 2013 | 192.168.0.47 & 5  | macmini  | Darwin Davids-MacMini.local 16.7.0 Darwin Kernel Version 16.7.0: Thu Jun 15 17:36:27 PDT 2017; root:xnu-3789.70.16~2/RELEASE_X86_64 x86_64 | i7 4GB, 1TB storage  |
 | Macbook Pro 2011 | 192.168.0.48 & 4 | macbookpro11 | Darwin DQR.local 17.4.0 Darwin Kernel Version 17.4.0: Sun Dec 17 09:19:54 PST 2017; root:xnu-4570.41.2~1/RELEASE_X86_64 x86_64 | i7 8 GB, 1TB SSD storage  |
 | Macbook Pro 2013 | varies | macbookpro13 |  | TBD  |
-
-### Database Servers
-
-* [MySQL Server](jdbc:mysql://192.168.0.42:3306) ~ jdbc:mysql://192.168.0.42:3306 root/
-* [MySQL Server (Docker)](jdbc:mysql://ubuntu-64.local:3306) ~ jdbc:mysql://ubuntu-64.local:3306 root/
-    * [Some commands](https://github.com/docker-library/mysql/issues/230) to make DB available to outside users.
-    * (Docker shell) bash-4.2# mysql --user=root --password=somepassword
-    *  mysql> SELECT User,authentication_string FROM mysql.user;
-    *  mysql> GRANT USAGE ON *.* TO 'root'@'%'
-
-### Build Servers
-* [Jenkins Server (Ubuntu-64)](http://192.168.0.53:8080/)
-* [Jenkins Server (Debian-32)](http://192.168.0.45:8080/)
