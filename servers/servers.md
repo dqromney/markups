@@ -32,3 +32,6 @@ These are applications used to store documentation and source code for applicati
     * (Docker shell) bash-4.2# mysql --user=root --password=somepassword
     *  mysql> SELECT User,authentication_string FROM mysql.user;
     *  mysql> GRANT USAGE ON *.* TO 'root'@'%'
+
+### Build Servers
+* [Jenkins Server](http://192.168.0.53:8080/)
