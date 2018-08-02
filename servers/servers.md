@@ -34,4 +34,5 @@ These are applications used to store documentation and source code for applicati
     *  mysql> GRANT USAGE ON *.* TO 'root'@'%'
 
 ### Build Servers
-* [Jenkins Server](http://192.168.0.53:8080/)
+* [Jenkins Server (Ubuntu-64)](http://192.168.0.53:8080/)
+* [Jenkins Server (Debian-32)](http://192.168.0.45:8080/)
