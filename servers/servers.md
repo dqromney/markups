@@ -3,7 +3,9 @@
 
 ### Continuous Integration (CI)
 These are applications used to build and deploy applications.
-* [Jenkins Server (Ubuntu-64)](http://192.168.0.53:8080/)
+* [Jenkins Server (Ubuntu-64) (Docker)](http://192.168.0.53:8080/)
+    * [Docker Image Detail](https://hub.docker.com/_/jenkins/)
+    * Installation location: /home/dqromney/projects/docker/jenkins
 * [Jenkins Server (Debian-32)](http://192.168.0.45:8080/)
 
 ### Database Servers
