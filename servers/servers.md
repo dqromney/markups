@@ -24,6 +24,9 @@ These are applications used to store documentation and source code for applicati
 * [BitBucket](https://bitbucket.org)
 * [GitHub](https:/github.com)
 
+### Other Servers
+* [Rabbit MQ Server](http://192.168.0.42:8080)
+
 ### Home Servers
 | Name  | IP  | ssh  | uname -a  | Description  |
 |:-:|:-:|:-:|:-:|:-:|
