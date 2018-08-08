@@ -12,6 +12,7 @@
 - [jupyter Documentation](https://jupyter.readthedocs.io/en/latest/projects/incubator.html) Python
 - [jupyter youtube](https://www.youtube.com/watch?v=Duicsycntdo) Pyhon
 - [DApps](https://dappsforbeginners.wordpress.com) Decentralized Applications
+- [Ether Wallet](https://www.sitepoint.com/myetherwallet-introduction/)
 
 ### Spring Framework
 - [Spring Documentation](https://docs.spring.io/spring/docs/current/spring-framework-reference/)

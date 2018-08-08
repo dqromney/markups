@@ -19,3 +19,19 @@ Here are some general tools used to generate content for this MarkServ server.
 #### Docker Hub
 - [My Docker Repository](https://hub.docker.com/)
 - [Docker Repositories](https://hub.docker.com/explore/)
+
+#### BitBucket 
+Let's put some bits in your bucket
+
+##### Get started quickly
+Creating a README or a .gitignore is a quick and easy way to get something into your repository.
+
+* Create a README
+* Create a .gitignore
+* Get your local Git repository on Bitbucket
+* Step 1: Switch to your repository's directory
+    * cd /path/to/your/repo
+* Step 2: Connect your existing repository to Bitbucket
+    * `git remote add origin https://dqromney@bitbucket.org/dqromney/the-goto-book.git`
+    * `git push -u origin master`
+* [Need more information? Learn how to set up your repository](https://confluence.atlassian.com/x/Ep1IN)
