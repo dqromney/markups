@@ -25,7 +25,10 @@ These are applications used to store documentation and source code for applicati
 * [GitHub](https:/github.com)
 
 ### Other Servers
-* [Rabbit MQ Server](http://192.168.0.42:8080)
+* [Rabbit MQ Server](http://192.168.0.42:8080) 192.168.0.42:8080
+* [Kafka Manager](http://192.168.0.53:9001)
+* [Kafka Server](http://192.168.0.53:9003) 192.168.0.53:9003
+* [Zookeeper Server](192.168.0.53:2181) 192.168.0.53:2181
 
 ### Home Servers
 | Name  | IP  | ssh  | uname -a  | Description  |
