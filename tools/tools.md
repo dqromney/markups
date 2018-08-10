@@ -35,3 +35,6 @@ Creating a README or a .gitignore is a quick and easy way to get something into 
     * `git remote add origin https://dqromney@bitbucket.org/dqromney/the-goto-book.git`
     * `git push -u origin master`
 * [Need more information? Learn how to set up your repository](https://confluence.atlassian.com/x/Ep1IN)
+
+#### Getting a list of listening TCP/IP ports
+* sudo lsof -iTCP -sTCP:LISTEN -P -n
