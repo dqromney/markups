@@ -7,6 +7,9 @@ Here are some general tools used to generate content for this MarkServ server.
 - [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables)
 - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#hr)
 
+#### Java Libraries
+- [commons CLI](http://commons.apache.org/proper/commons-cli/usage.html)
+
 #### JSON Tools
 - [jsonschema2pojo](http://www.jsonschema2pojo.org/)
 
