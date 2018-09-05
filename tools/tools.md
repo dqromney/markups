@@ -23,6 +23,9 @@ Here are some general tools used to generate content for this MarkServ server.
 - [My Docker Repository](https://hub.docker.com/)
 - [Docker Repositories](https://hub.docker.com/explore/)
 
+#### Spring Boot Tools
+- [Spring Cloud Config Quick Start](http://cloud.spring.io/spring-cloud-static/spring-cloud-config/2.0.1.RELEASE/single/spring-cloud-config.html#_quick_start)
+
 #### BitBucket 
 Let's put some bits in your bucket
 
