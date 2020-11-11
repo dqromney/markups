@@ -26,9 +26,9 @@ These are applications used to store documentation and source code for applicati
 
 ### Other Servers
 * [Rabbit MQ Server](http://192.168.1.32:8080) 192.168.0.42:8080
-* [Kafka Manager](http://192.168.1.32:9001)
-* [Kafka Server](http://192.168.1.32:9003) 192.168.0.53:9003
-* [Zookeeper Server](192.168.1.32:2181) 192.168.0.53:2181
+* [Kafka Manager](http://192.168.1.32:9001) 192.168.1.32:9001
+* [Kafka Server](http://192.168.1.32:9003) http://192.168.1.32:9003
+* [Zookeeper Server](http://192.168.1.32:2181) 192.168.1.32:2181
 
 ### Home Servers
 | Name  | IP  | ssh  | uname -a  | Description  |
