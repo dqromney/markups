@@ -3,7 +3,7 @@
 
 ### Continuous Integration (CI)
 These are applications used to build and deploy applications.
-* [Jenkins Server (Ubuntu-64) (Docker)](http://192.168.0.53:8080/)
+* [Jenkins Server (Ubuntu-64) (Docker)](http://192.168.1.32:8080/)
     * [Docker Image Detail](https://hub.docker.com/_/jenkins/)
     * Installation location: /home/dqromney/projects/docker/jenkins
 * [Jenkins Server (Debian-32)](http://192.168.0.45:8080/)
@@ -25,15 +25,15 @@ These are applications used to store documentation and source code for applicati
 * [GitHub](https:/github.com)
 
 ### Other Servers
-* [Rabbit MQ Server](http://192.168.0.42:8080) 192.168.0.42:8080
-* [Kafka Manager](http://192.168.0.53:9001)
-* [Kafka Server](http://192.168.0.53:9003) 192.168.0.53:9003
-* [Zookeeper Server](192.168.0.53:2181) 192.168.0.53:2181
+* [Rabbit MQ Server](http://192.168.1.32:8080) 192.168.0.42:8080
+* [Kafka Manager](http://192.168.1.32:9001)
+* [Kafka Server](http://192.168.1.32:9003) 192.168.0.53:9003
+* [Zookeeper Server](192.168.1.32:2181) 192.168.0.53:2181
 
 ### Home Servers
 | Name  | IP  | ssh  | uname -a  | Description  |
 |:-:|:-:|:-:|:-:|:-:|
-| Ubuntu 18.04.1 LTS | 192.168.0.53 | ubunto-64.local | Linux ubuntu-64 4.15.0-29-generic #31-Ubuntu SMP Tue Jul 17 15:39:52 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux | 64-bit 16 GB with 2 TB onboard storage  |
+| Ubuntu 18.04.1 LTS | 192.168.1.32 | ubunto-64.local | Linux ubuntu-64 4.15.0-29-generic #31-Ubuntu SMP Tue Jul 17 15:39:52 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux | 64-bit 16 GB with 2 TB onboard storage  |
 | Raspberry Pi  | 192.168.0.53 ubuntu-64.local | raspi | Linux raspberrypi 4.9.59-v7+ #1047 SMP Sun Oct 29 12:19:23 GMT 2017 armv7l GNU/Linux  | 64-bit 2 GB with 5 TB store USB drive  |
 | Debian 9 | 192.168.0.45 | debian32  | Linux debian 4.9.0-7-686-pae #1 SMP Debian 4.9.110-1 (2018-07-05) i686 GNU/Linux | 32 bit 16 GB with 1 TB onboard storage  |
 | MacMini 2013 | 192.168.0.47 & 5  | macmini  | Darwin Davids-MacMini.local 16.7.0 Darwin Kernel Version 16.7.0: Thu Jun 15 17:36:27 PDT 2017; root:xnu-3789.70.16~2/RELEASE_X86_64 x86_64 | i7 4GB, 1TB storage  |
