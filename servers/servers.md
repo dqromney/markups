@@ -25,8 +25,8 @@ These are applications used to store documentation and source code for applicati
 * [GitHub](https:/github.com)
 
 ### Other Servers
-* [Network Gateway 192.168.1.1](192.168.1.1)
-* [Network DNS 192.168.1.1](192.168.1.1)
+* [Network Gateway 192.168.1.1, 166.70.64.1](192.168.1.1)
+* [Network DNS 192.168.1.1, 198.60.22.2, 198.60.22.22, 8.8.8.8](192.168.1.1)
 * [Rabbit MQ Server](http://192.168.1.32:8080) 192.168.0.42:8080
 * [Kafka Manager](http://192.168.1.32:9001) 192.168.1.32:9001
 * [Kafka Server](http://192.168.1.32:9003) http://192.168.1.32:9003
