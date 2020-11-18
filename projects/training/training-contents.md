@@ -9,6 +9,7 @@
 * [What is Logback.xml Logging Framework? ConsoleAppender, FileAppender and RollingFileAppender Example](https://crunchify.com/what-is-logback-xml-logging-framework-consoleappender-fileappender-and-rollingfileappender-example/)
 * [Java 8 Stream API Operations and Lambda Expression Tutorial](https://crunchify.com/java-8-stream-operations-and-lambda-expression-tutorial/)
 * [systemctl start/stop service: How to Setup Upstart Script and Respawn Process in Ubuntu, CentOS, Redhat Linux](https://crunchify.com/systemd-upstart-respawn-process-linux-os/)
+* [Setting up Static IP Address on Ubuntu](SettingUpStaticIPAddressOnUbuntu.md)
 
 ### Major Training/Help Sites
 #### Coding
