@@ -17,6 +17,14 @@ and the Angular framework.
 - [Operational Visualization](https://hub.docker.com/search?q=Grafana&type=image)
 - [Memcached](https://hub.docker.com/_/memcached)
 
+### UI Requirements
+* Install [NodeJs](https://nodejs.org/en/download/) for your development platform.
+* Install [Angular/CLI](https://www.fosstechnix.com/how-to-install-angular-cli-on-windows-10/#:~:text=%20How%20to%20Install%20Angular%20CLI%20on%20Windows,update%20node.js%20and%20npm%20on%20windows...%20More%20). i.e. `npm install -g @angular/cli`
+* Run `npm install`, i.e. (C:\Users\dqrom\projects\dqrapps\bab\bab-ui\bab-ui>) in the bab-ui to load up the node libraries.  
+
+### Content Sites
+* [Saveur](https://www.saveur.com/article/Techniques/Building-the-Perfect-Burger/)
+
 ### Aspect Logging
 Here is a class I use in the web module for logging Enter/Exit and Exception logs in a Spring environment. 
 ```
