@@ -13,7 +13,9 @@ The top of the Amazon Web Services training and development skills. This section
       information you enter will be added to STG APN statistics. You will be asked for a password prior to creating
       your account.
     - Familiarize yourself with the information provided regarding the APN, especially note the training envolved 
-    to be accredited and certified. 
+    to be accredited and certified. You want to find [APN Partner Training](https://www.aws.training/PartnerTraining) to 
+      explore the Training options.
+    - Enroll in Digital Training by selecting the "Find Training" button.   
     - The course I am currently taking is the "AWS Technical Profession", it has about 6-7 modules with a test 
     at the end of the course.  
     
