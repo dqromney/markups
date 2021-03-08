@@ -1,6 +1,11 @@
 # Training Table of Contents
 {markdown: ./breadcrumb.md}
 
+### Amazon (STG)
+* [Amazon Training and Certification](https://www.aws.training/Account/SessionTimedOut?returnUrl=https%3A%2F%2Fwww.aws.training%2F)
+* [Amazon Partner Network Training](https://www.aws.training/PartnerTraining)
+    * [AWS Technical Professional](https://www.aws.training/Details/Curriculum?id=45423)
+    
 ### Links
 
 * [Spring Framework DevOps on AWS Course](Udemy%20-%20Spring%20Framework%20DevOps%20on%20AWS.md) 
