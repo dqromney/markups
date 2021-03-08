@@ -52,5 +52,21 @@ The top of the Amazon Web Services training and development skills. This section
     
 - Module 4: Presenting AWS Solutions to Customers
     - Preparing for discovery
+        - Research customer's business
+        - Determine market segment (HIPA, etc)
+        - Identify industry trends
+        - Identify customer's competitors
+        - Research recent news
+        - Research customer relationship with AWS
+    - Discovery practices
+        - Encourage detailed conversation
+            - Ask targeted questions
+            - Ask open-ended questions
+        - Five Whys
+            - Dive deeper
+            - Uncover the real desired outcomes
+        - White-boarding (discovery)
+            - Keep track of the conversation
+            - Illustrate workflows and ideation
 
     
