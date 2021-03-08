@@ -14,7 +14,16 @@ The top of the Amazon Web Services training and development skills. This section
         - Rehost: lift and shift
         - Replatform: lift, tinker, and shift
         - Refactor: modernize
-        - Retire: legacy
-        - Retain: 
-        - Repurchase: 
+        - Retire: Shutting off non-useful applications 
+        - Retain/Revisit: Keeping certain applications on-premises
+        - Repurchase: Moving workflows to Software as a Service (SaaS), like Salesforce.
+    - Cloud Architecture Best Practices
+        - Design for failure and nothing fails
+        - Build security in every layer
+        - Leverage different storage options
+        - Implement elasticity
+        - Think parallel
+        - Loose coupling sets you free
+        - Don't fear constraints
+    
     
