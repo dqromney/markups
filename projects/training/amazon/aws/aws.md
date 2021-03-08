@@ -55,7 +55,7 @@ The top of the Amazon Web Services training and development skills. This section
         - Research customer's business
         - Determine market segment (HIPA, etc)
         - Identify industry trends
-        - Identify customer's competitors
+        - Identify the customer's competitors
         - Research recent news
         - Research customer relationship with AWS
     - Discovery practices
@@ -68,5 +68,21 @@ The top of the Amazon Web Services training and development skills. This section
         - White-boarding (discovery)
             - Keep track of the conversation
             - Illustrate workflows and ideation
+    - Preparing an AWS solution
+        - Consult with peers
+        - Illustrate the solution (white-board)
+        - Include variation (white-board)
+        - Create a presentation (white-board)
+        - After presentation...
+        - Revise the solution
+        - Gain buy-in from the customer
+        - Propose a Proof of Concept (POC), using your own AWS (STG) account
+    - Objection handling technique
+        - Address objects before moving forward
+        - Objections are not always factual
+            - Identifier with the customer's point of view
+            - Identifier the core concern
+            - Take steps toward resolution
+    
 
     
