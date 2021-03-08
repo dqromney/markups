@@ -1,4 +1,4 @@
-# Amazon
+# Amazon Partner Network
 {markdown: ./breadcrumb.md}
 
 Creation Date: 2021/03/08
@@ -7,4 +7,4 @@ Creation Date: 2021/03/08
 The top of the Amazon Partnering Network Services training and development skills. This section is for personal 
 and professional information. 
 
-### Amazon Partner Network
+

@@ -8,7 +8,7 @@ The top of the Amazon Web Services, and Network Partnering training and developm
 and professional information. 
 
 ### Amazon Web Services
-- [Amazon Web Service](amazon/aws/aws.md)
+- [Amazon Web Service](aws/aws.md)
 
 ### Amazon Partner Network
-- [Amazon Partner Network](amazon/apn/apn.md)
+- [Amazon Partner Network](apn/apn.md)
