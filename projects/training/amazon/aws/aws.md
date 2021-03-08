@@ -6,8 +6,11 @@ Creation Date: 2021/03/08
 ## Description
 The top of the Amazon Web Services training and development skills. This section is for personal and professional information. 
 ### Getting started
-- Create an Amazon account using your STG email, i.e. someone@stgconsulting.com
-    - This will be used to gain access to AWS services you may be given access to, i.e. EC2, S3...
+- Create an Amazon Web Services or AWS account using your STG email, i.e. someone@stgconsulting.com
+    - The best place to started is of course: [Getting Started](hLattps://aws.amazon.com/getting-started), for now, 
+      just use the "Root user sign in".  Just stick with the [free](https://aws.amazon.com/free) for now.
+    - Later on this account will be used to create Proof-of-Concepts or PoFs for clients and will be paid for by the 
+      client or STG and given access to, i.e. EC2, S3, etc...
 - Create an Amazon Partner Network account, using your STG email.
     - Answer all the questions as if you are a Developer, and understand that Share Ralph is the STG lead. The 
       information you enter will be added to STG APN statistics. You will be asked for a password prior to creating
@@ -83,6 +86,43 @@ The top of the Amazon Web Services training and development skills. This section
             - Identifier with the customer's point of view
             - Identifier the core concern
             - Take steps toward resolution
+        - Objection handling best practices
+            - Data-driven approach
+            - Use case studies
+            - Dive deep
+            - Have backbone
+            - Keep the momentum going
+    - Keys to consistent results
+        - Prepare (1 hour of content equals 3 hours of preparation, related Acronyms)
+        - Anticipate (Do your research! Question the adaptive nature)
+        - Differentiate (Set yourself apart and AWS)
+        - Stay on message (don't be thrown of course)
+    - What NOT to do
+        - Use words like definitely, never, or guaranteed
+        - Use acronyms or technical jargon
+        - Focus on technology
+        - Focus on the short/mid-term
+        - Read the slides    
+    - Delivering a Proof of Concept (PoC)
+        - Proposal -> Proof-of-Concept -> Migration
+        - Practical example of solution
+        - Evaluation mechanism
+        - Education tool
+    - Building a PoC
+        - Customer agrees to PoC
+        - Take the feedback from the solution proposal
+        - Develop the POC
+        - Collect the following information:
+            - Networking and security
+            - Application code
+            - Databases
+            - Data
+    - AWS Quick Starts
+        - [Quick Start](https://aws.amazon.com/quickstart/)
+        - [Answers](https://aws.amazon.com/answers)
+        - Rapidly deploy architectures based upon best practices
+        - Launch, configure, and run AWS services required to deploy a specific workload on AWS
+        - Reduce manual procedures into a few steps
+        - Check back frequently for updates. 
     
-
-    
+        
