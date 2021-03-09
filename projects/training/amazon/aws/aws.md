@@ -219,7 +219,34 @@ The top of the Amazon Web Services training and development skills. This section
             - Gain a basic understanding of AWS services and core business balue propositions.
         - AWS Professional Services
             - Develop and extend professional services competencies
-          
+
+### Amazon Acronyms
+| Acronym | Description  |
+|:-:|:-:|
+| EC2 | Elastic Cloud Compute 2 |
+| MVP | Minimum Viable Product - See progress from the start, instead at the end of a long process. |
+| PoC | Proof-of-Concept |
+| IAM | Identity Access Management |
+| AWS | Amazon Web Services |
+| APN | Amazon Partner Network.  It is a resource providing APN Partners with the tools and content they
+need to grow their businesses on AWS. May include independent software vendors (ISVs). Provide hardware,
+connectivity services, and software solutions that are hosted on or integrated with the AWS Cloud. |
+| ROI | Return on Investment |
+| SaaS | Software as a Service, i.e. Salesforce |
+| TCO | Total Cost of Ownership |
+| PaaS | Platform as a Service |
+| ISV | Independent Software Vendors (Saas, PaaS, Developer Tools, Management, Security) |
+| MRR | Marginal Rate of Return or Monthly Recurring Revenue |
+| POA | Partner Opportunity Acceleration |
+| PDR | Partner Development Representative (First point of contact, and helps with on-boarding) |
+| PDM | Partner Development Manager (Manages the relationship between you and AWS) |
+| MDF | Market Development Funding (Support marketing efforts) |
+| NACL | Network Access Control Lists (on the Subnet level) |
+| VPC | A logically isolated virtual network in the AWS cloud. You define a VPC’s IP address space
+from ranges you select. |
+| MSP | Managed Service Providers |
+| EBS | Elastic Block Store |
+
                   
 - Acronyms
     - EC2 - Elastic Cloud Compute 2
