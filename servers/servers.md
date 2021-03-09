@@ -43,5 +43,5 @@ These are applications used to store documentation and source code for applicati
 | Raspberry Pi 4 | 192.168.1.104 | rpi4-4 | Linux rpi4-4 5.10.11-v7l+ #1399 SMP Thu Jan 28 12:09:48 GMT 2021 armv7l GNU/Linux  | 64-bit 4 GB  |
 | Raspberry Pi 4 | 192.168.1.105 | rpi4-8 | Linux rpi4-8 5.10.11-v7l+ #1399 SMP Thu Jan 28 12:09:48 GMT 2021 armv7l GNU/Linux  | 64-bit 8 GB  |
 | Debian 9 | 192.168.1.108 | deb32  | Linux debian 4.9.0-14-686-pae #1 SMP Debian 4.9.246-2 (2020-12-17) i686 GNU/Linux | 32 bit 16 GB with 1 TB onboard storage  |
-| MacMini 2013 | 192.168.1.110  | macmini  | Darwin Davids-MacMini.local 16.7.0 Darwin Kernel Version 16.7.0: Thu Jun 15 17:36:27 PDT 2017; root:xnu-3789.70.16~2/RELEASE_X86_64 x86_64 | i7 4GB, 1TB storage  |
-| MacBook Pro (Retina, 15-inch, Mid 2014 | 192.168.1.112 | mbpro | Darwin DQR-2.local 18.7.0 Darwin Kernel Version 18.7.0: Tue Jan 12 22:04:47 PST 2021; root:xnu-4903.278.56~1/RELEASE_X86_64 x86_64 | 2.8 GHz Intel Core i7 |
+| MacMini 2013 | 192.168.1.110  | macmini  | Darwin Davids-MacMini.local 16.7.0 Darwin Kernel Version 16.7.0: Thu Jun 15 17:36:27 PDT 2017; root:xnu-3789.70.16~2/RELEASE_X86_64 x86_64 | i7 4GB, 1TB SSD Storage  |
+| MacBook Pro (Retina, 15-inch, Mid 2014 | 192.168.1.112 | mbpro | Darwin DQR-2.local 18.7.0 Darwin Kernel Version 18.7.0: Tue Jan 12 22:04:47 PST 2021; root:xnu-4903.278.56~1/RELEASE_X86_64 x86_64 | 2.8 GHz Intel Core i7, 1TB SSD |
