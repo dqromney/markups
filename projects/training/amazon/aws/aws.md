@@ -228,6 +228,9 @@ This test took me about 30-45 minutes to complete.  I was taking notes during th
             - Develop and extend professional services competencies
 
 ##### AWS Cloud Economics Accreditation: (Completed yyyy-mm-dd with 00.00% ~ n points)
+Please complete all the of the modules below, and the course assessment.  A score of 80% or higher on the assessment 
+is required for course completion.
+
 ###### Notes
 - Module 1: Introduction to Business Value
     - Cloud Value Framework
