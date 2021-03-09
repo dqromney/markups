@@ -111,7 +111,7 @@ The top of the Amazon Web Services training and development skills. This section
     - Building a PoC
         - Customer agrees to PoC
         - Take the feedback from the solution proposal
-        - Develop the POC
+        - Develop the PoC
         - Collect the following information:
             - Networking and security
             - Application code
@@ -124,5 +124,69 @@ The top of the Amazon Web Services training and development skills. This section
         - Launch, configure, and run AWS services required to deploy a specific workload on AWS
         - Reduce manual procedures into a few steps
         - Check back frequently for updates. 
+
+- Module 5: Looking Ahead
+    - Solution implementation
+        - The migration process
+            - Assessment
+            - Readiness and Planning
+            - Migration
+            - Operations and Optimizations
+    - Migration strategies
+        - See nice a technology map from Determine Migration Path to Validation, Transition, and then Production. 
+    - Best practices
+        - Involve AWS account team (Solutions Architect or Technical Account Manager)
+        - Customer-specific regulatory requirements
+        - AWS Support level (if customer opts for this support)
+    - AWS Well-Architected Tool
+        - Use this tool in the Console for work-space you are considering.
+    - Modernization to drive growth
+        - Retired expensive legacy solutions
+        - Reduce TCO, improve cost optimization
+        - Gain agility through automation
+        - Free up resources to drive innovation
+    - Modernization of architectures (Benefits)
+        - Serverless
+          - No provisioning, maintain and administering servers
+          - AWS handles fault tolerance and availability
+          - Focus on product innovation
+        - Containers
+          - Package code, configuration , and dependencies into a single object
+          - Share an operating system
+          - Run as resource-isolated processes
+          - AWS offers resources and orchestration services
+      - Data lakes and analytics
+        - Data in different silos can be difficult to access and analyze
+        - Store data in a "data lake"
+        - Easy to read data and obtain insights
+        - Data lakes and analytics solutions on AWS
+            - Interactive Analytics (Amazon Athena)
+            - Big Data Processing (Amazon EMR, Spark, Hadoop)
+            - Data Warehousing (Amazon Redshift)
+            - Real-Time Analytics (Amazon Kinesis)
+            - Operational Analytics (Amazon Elasticsearch Service)
+            - Dashboards and Visualizations (Amazon QuickSight)
+
+- Module 6: AWS Partner Network (APN) Resources
+    - 
+
+- Acronyms
+    - MVP - Minimum Viable Product - See progress from the start, instead at the end of a long process.
+    - PoC - Proof-of-Concept
+    - IAM - Identity Access Management
+    - AWS - Amazon Web Services
+    - APN - Amazon Partner Network
+    - ROI - Return on Investment
+    - SaaS - Software as a Service, i.e. Salesforce
+    - TCO - Total Cost of Ownership
+    - PaaS - Platform as a Service
     
-        
+- Terms
+    - AWS Landing Zone
+        - A Secure and well architected multi-account AWS environment.
+    - Minimum Viable Product 
+        - See progress from the start, instead at the end of a long process. A functional product or solution
+          with just enough features to satisfy a customer's requirements at initial adoption, and leaves room for 
+          feedback as you get more complex. PoC -> MVP (Production-Level)
+    - Data Lakes - A large storage repository that holds data in their original format prior to being parsed 
+      and analyzed. Examples are: Hadoop which is designed to hold huge amounts of data. 
