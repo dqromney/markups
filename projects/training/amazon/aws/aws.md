@@ -244,6 +244,7 @@ The top of the Amazon Web Services training and development skills. This section
     - VPC - A logically isolated virtual network in the AWS cloud. You define a VPC’s IP address space 
       from ranges you select.
     - MSP - Managed Service Providers
+    - EBS - Elastic Block Store
     
 - Terms
     - AWS Landing Zone
@@ -273,6 +274,8 @@ The top of the Amazon Web Services training and development skills. This section
     - EC2 "General Purpose" instance type
         - Provides a balance of compute, memory and networking resources, and can be used for a variety of 
           diverse workloads. 
+    - EC2 "Compute Optimized" instance type
+      - Ideal for compute bound applications that benefit from high performance processors. 
     - Rehost: lift and shift
         - Consists of a simple transfer of application resources from an on-premises data center to the AWS cloud.
     - Shard Responsibility Model (Principles)
@@ -286,6 +289,14 @@ The top of the Amazon Web Services training and development skills. This section
         - A low-cost object storage server designed for data archiving. 
     - Containers
         - Containers package applications's code, configurations, and dependencies into a single object. 
+    - Amazon Simple Storage Service or S3
+        - Amazon S3 is an object storage service that can be used to store and retrieve any amount of data, 
+          at any time, from anywhere on the web.
+    - Serverless Architectures
+        - Serverless architectures run applications without provisioning, maintaining, and administering servers. 
+    - Amazon Elastic Block Store
+        - Amazon EBS provides persistent block level storage volumes for use with Amazon EC2 instances. 
+    
     
     
     
