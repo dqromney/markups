@@ -244,82 +244,56 @@ The top of the Amazon Web Services training and development skills. This section
 | MSP | Managed Service Providers |
 | EBS | Elastic Block Store |
 
-                  
-- Acronyms
-    - EC2 - Elastic Cloud Compute 2
-    - MVP - Minimum Viable Product - See progress from the start, instead at the end of a long process.
-    - PoC - Proof-of-Concept
-    - IAM - Identity Access Management
-    - AWS - Amazon Web Services
-    - APN - Amazon Partner Network.  It is a resource providing APN Partners with the tools and content they 
-      need to grow their businesses on AWS. May include independent software vendors (ISVs). Provide hardware, 
-      connectivity services, and software solutions that are hosted on or integrated with the AWS Cloud.
-    - ROI - Return on Investment
-    - SaaS - Software as a Service, i.e. Salesforce
-    - TCO - Total Cost of Ownership
-    - PaaS - Platform as a Service
-    - ISV - Independent Software Vendors (Saas, PaaS, Developer Tools, Management, Security)
-    - MRR - Marginal Rate of Return or Monthly Recurring Revenue
-    - POA - Partner Opportunity Acceleration 
-    - PDR - Partner Development Representative (First point of contact, and helps with on-boarding)
-    - PDM - Partner Development Manager (Manages the relationship between you and AWS)
-    - MDF - Market Development Funding (Support marketing efforts)
-    - NACL - Network Access Control Lists (on the Subnet level)
-    - VPC - A logically isolated virtual network in the AWS cloud. You define a VPC’s IP address space 
-      from ranges you select.
-    - MSP - Managed Service Providers
-    - EBS - Elastic Block Store
-    
-- Terms
-    - AWS Landing Zone
-        - A Secure and well architected multi-account AWS environment.
-    - Minimum Viable Product 
-        - See progress from the start, instead at the end of a long process. A functional product or solution
-          with just enough features to satisfy a customer's requirements at initial adoption, and leaves room for 
-          feedback as you get more complex. PoC -> MVP (Production-Level)
-    - Data Lakes - A large storage repository that holds data in their original format prior to being parsed 
-      and analyzed. Examples are: Hadoop which is designed to hold huge amounts of data.
-    - AWS Regions
-        - Separate, isolated geographic areas that contain available zones. 
-    - AWS Availability Regions 
-        - A Region designed to be isolated from the other AWS Regions. This design achieves the greatest 
-          possible fault tolerance and stability. You can think of AWS regions as fairly independent collections 
-          of data centers within a specific geographic area. An AWS region, thereby, can be thought of as a 
-          collection of availability zones.
-    - AWS Availability Zones
-        - A good way to think about availability zones is to consider an AZ as equivalent to a data center. 
-          Isolated locations within a geographical region, containing one or more data centers.
-    - AWS Well-Architected Framework
-        - It is a resource to help you design solutions following AWS best practices. 
-    - AWS edge locations
-        - Locations designed to deliver content to end users.
-    - EC2 "Memory Optimized" instance type
-        - Designed to deliver fast performance for workloads that process large data sets in memory.
-    - EC2 "General Purpose" instance type
-        - Provides a balance of compute, memory and networking resources, and can be used for a variety of 
-          diverse workloads. 
-    - EC2 "Compute Optimized" instance type
-      - Ideal for compute bound applications that benefit from high performance processors. 
-    - Rehost: lift and shift
-        - Consists of a simple transfer of application resources from an on-premises data center to the AWS cloud.
-    - Shard Responsibility Model (Principles)
-        - AWS is responsible for securing the physical network infrastructure.
-        - Customers are responsible for securing their applications and data.
-    - APN Consulting Partners
-        - APN Consulting Partners help customers design, architect, build, migrate, and manage their workloads 
-          and applications on AWS.
-        - APN Consulting Partners include Managed Service Providers (MSP).
-    - Amazon S3 Glacier 
-        - A low-cost object storage server designed for data archiving. 
-    - Containers
-        - Containers package applications's code, configurations, and dependencies into a single object. 
-    - Amazon Simple Storage Service or S3
-        - Amazon S3 is an object storage service that can be used to store and retrieve any amount of data, 
-          at any time, from anywhere on the web.
-    - Serverless Architectures
-        - Serverless architectures run applications without provisioning, maintaining, and administering servers. 
-    - Amazon Elastic Block Store
-        - Amazon EBS provides persistent block level storage volumes for use with Amazon EC2 instances. 
+### Amazon Terms 
+- AWS Landing Zone
+    - A Secure and well architected multi-account AWS environment.
+- Minimum Viable Product 
+    - See progress from the start, instead at the end of a long process. A functional product or solution
+      with just enough features to satisfy a customer's requirements at initial adoption, and leaves room for 
+      feedback as you get more complex. PoC -> MVP (Production-Level)
+- Data Lakes - A large storage repository that holds data in their original format prior to being parsed 
+  and analyzed. Examples are: Hadoop which is designed to hold huge amounts of data.
+- AWS Regions
+    - Separate, isolated geographic areas that contain available zones. 
+- AWS Availability Regions 
+    - A Region designed to be isolated from the other AWS Regions. This design achieves the greatest 
+      possible fault tolerance and stability. You can think of AWS regions as fairly independent collections 
+      of data centers within a specific geographic area. An AWS region, thereby, can be thought of as a 
+      collection of availability zones.
+- AWS Availability Zones
+    - A good way to think about availability zones is to consider an AZ as equivalent to a data center. 
+      Isolated locations within a geographical region, containing one or more data centers.
+- AWS Well-Architected Framework
+    - It is a resource to help you design solutions following AWS best practices. 
+- AWS edge locations
+    - Locations designed to deliver content to end users.
+- EC2 "Memory Optimized" instance type
+    - Designed to deliver fast performance for workloads that process large data sets in memory.
+- EC2 "General Purpose" instance type
+    - Provides a balance of compute, memory and networking resources, and can be used for a variety of 
+      diverse workloads. 
+- EC2 "Compute Optimized" instance type
+  - Ideal for compute bound applications that benefit from high performance processors. 
+- Rehost: lift and shift
+    - Consists of a simple transfer of application resources from an on-premises data center to the AWS cloud.
+- Shard Responsibility Model (Principles)
+    - AWS is responsible for securing the physical network infrastructure.
+    - Customers are responsible for securing their applications and data.
+- APN Consulting Partners
+    - APN Consulting Partners help customers design, architect, build, migrate, and manage their workloads 
+      and applications on AWS.
+    - APN Consulting Partners include Managed Service Providers (MSP).
+- Amazon S3 Glacier 
+    - A low-cost object storage server designed for data archiving. 
+- Containers
+    - Containers package applications's code, configurations, and dependencies into a single object. 
+- Amazon Simple Storage Service or S3
+    - Amazon S3 is an object storage service that can be used to store and retrieve any amount of data, 
+      at any time, from anywhere on the web.
+- Serverless Architectures
+    - Serverless architectures run applications without provisioning, maintaining, and administering servers. 
+- Amazon Elastic Block Store
+    - Amazon EBS provides persistent block level storage volumes for use with Amazon EC2 instances. 
     
     
     
