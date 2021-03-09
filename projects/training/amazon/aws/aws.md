@@ -209,6 +209,13 @@ The top of the Amazon Web Services training and development skills. This section
           - Customer Success requirements
               - 6 Publicly Referenceable Customers
               - 30 Customer Satisfaction (CSAT) Response
+    - APN Partner training resources
+        - AWS Technical Professional (my path)
+            - Gain Fundamental technical knowledge of AWS Cloud computing
+        - AWS Business Professional
+            - Gain a basic understanding of AWS services and core business balue propositions.
+        - AWS Professional Services
+            - Develop and extend professional services competencies
           
                   
 - Acronyms
@@ -223,6 +230,10 @@ The top of the Amazon Web Services training and development skills. This section
     - PaaS - Platform as a Service
     - ISV - Independent Software Vendors (Saas, PaaS, Developer Tools, Management, Security)
     - MRR - ?
+    - POA - Partner Opportunity Acceleration 
+    - PDR - Partner Development Representative
+    - PDM - Partner Development Manager
+    - MDF - Market Development Funding (Support marketing efforts)
     
 - Terms
     - AWS Landing Zone
