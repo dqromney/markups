@@ -23,7 +23,7 @@ The top of the Amazon Web Services training and development skills. This section
     at the end of the course.  
     
 #### Course Work
-##### AWS Technical Professional:
+##### AWS Technical Professional: (Completed 2021-03-09 with 83.33% ~ 25 points)
 ###### Notes
 - Module 3: From Services to Solutions
     - Migration Strategies - The Six R's
@@ -262,3 +262,12 @@ The top of the Amazon Web Services training and development skills. This section
     - AWS Availability Zones
         - A good way to think about availability zones is to consider an AZ as equivalent to a data center. 
           Isolated locations within a geographical region, containing one or more data centers.
+    - AWS Well-Architected Framework
+        - It is a resource to help you design solutions following AWS best practices. 
+    - AWS edge locations
+        - Locations designed to deliver content to end users.
+    - EC2 "Memory Optimized" instance type
+        - Designed to deliver fast performance for workloads that process large data sets in memory.
+    - Rehost: lift and shift
+        - Consists of a simple transfer of application resources from an on-premises data center to the AWS cloud.
+    
