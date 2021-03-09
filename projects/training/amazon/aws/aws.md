@@ -20,7 +20,8 @@ The top of the Amazon Web Services training and development skills. This section
       explore the Training options.
     - Enroll in Digital Training by selecting the "Find Training" button.   
     - The course I am currently taking is the "AWS Technical Profession", it has about 6-7 modules with a test 
-    at the end of the course.  
+    at the end of the course.  Test takes 30-45 minutes and consists of 30 multiple-choice questions. 
+      You need to get 80% correct to pass, and you can take it multiple times. 
     
 #### Course Work
 ##### AWS Technical Professional: (Completed 2021-03-09 with 83.33% ~ 25 points)
@@ -242,6 +243,7 @@ The top of the Amazon Web Services training and development skills. This section
     - NACL - Network Access Control Lists (on the Subnet level)
     - VPC - A logically isolated virtual network in the AWS cloud. You define a VPC’s IP address space 
       from ranges you select.
+    - MSP - Managed Service Providers
     
 - Terms
     - AWS Landing Zone
@@ -270,4 +272,12 @@ The top of the Amazon Web Services training and development skills. This section
         - Designed to deliver fast performance for workloads that process large data sets in memory.
     - Rehost: lift and shift
         - Consists of a simple transfer of application resources from an on-premises data center to the AWS cloud.
+    - Shard Responsibility Model (Principles)
+        - AWS is responsible for securing the physical network infrastructure.
+        - Customers are responsible for securing their applications and data.
+    - APN Consulting Partners
+        - APN Consulting Partners help customers design, architect, build, migrate, and manage their workloads 
+          and applications on AWS.
+        - APN Consulting Partners include Managed Service Providers (MSP).
+    
     
