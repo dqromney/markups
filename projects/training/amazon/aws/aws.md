@@ -30,6 +30,8 @@ Using the AWS [Partner Learning Path Tool](https://pages.awscloud.com/AWS-Partne
 my learning path.  I my role is "Developer", and my Area of Focus is "Developer at an AWS Partner". 
 
 ##### AWS Technical Professional: (Completed 2021-03-09 with 83.33% ~ 25 points)
+This test took me about 30-45 minutes to complete.  I was taking notes during the test. 
+
 ###### Notes
 - Module 3: From Services to Solutions
     - Migration Strategies - The Six R's
@@ -224,6 +226,45 @@ my learning path.  I my role is "Developer", and my Area of Focus is "Developer 
             - Gain a basic understanding of AWS services and core business balue propositions.
         - AWS Professional Services
             - Develop and extend professional services competencies
+
+##### AWS Cloud Economics Accreditation: (Completed yyyy-mm-dd with 00.00% ~ n points)
+###### Notes
+- Module 1: Introduction to Business Value
+    - Cloud Value Framework
+    - Cost savings
+    - Staff productivity
+    - Operational resilience
+    - Business agility
+- Module 2: Cost Savings Basics
+    - Why cost savings matters
+    - Lowering costs with AWS
+    - Customer migration challenges
+- Module 3: Staff Productivity
+    - Quantifying the impact AWS has on staff productivity versus traditional IT
+    - Customer examples
+- Module 4: Operational Resilience
+    - Four key areas of operational resilience
+    - Benefits of improved operational resilience
+    - Causes and impacts of downtime
+    - How AWS mitigates operational failures
+    - Customer examples
+- Module 5: Business Agility
+    - Key performance indicators to measure business agility
+    - How increased business agility allows for innovation and decreased risks and costs
+    - Customer examples
+- Module 6: Cloud Financial Management
+    - Four key areas of cloud financial management
+    - Measurement and accountability
+    - Cost optimization
+    - Planning and forecasting
+    - Cloud financial operations
+- Module 7: Introduction to Migration Portfolio Assessment (MPA)
+    - Who should use the MPA tool
+    - When and how to use the MPA tool
+    - How to access the MPA tool
+- Module 8: Cost Savings with MPA
+    - How to add and manipulate data with the MPA tool
+    - Cost savings analyses with the MPA tool
 
 ### Amazon Acronyms
 | Acronym | Description  |
