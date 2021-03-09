@@ -7,7 +7,7 @@ Creation Date: 2021/03/08
 The top of the Amazon Web Services training and development skills. This section is for personal and professional information. 
 ### Getting started
 - Create an Amazon Web Services or AWS account using your STG email, i.e. someone@stgconsulting.com
-    - The best place to started is of course: [Getting Started](hLattps://aws.amazon.com/getting-started), for now, 
+    - The best place to started is of course: [Getting Started](https://aws.amazon.com/getting-started), for now, 
       just use the "Root user sign in".  Just stick with the [free](https://aws.amazon.com/free) for now.
     - Later on this account will be used to create Proof-of-Concepts or PoFs for clients and will be paid for by the 
       client or STG and given access to, i.e. EC2, S3, etc...
