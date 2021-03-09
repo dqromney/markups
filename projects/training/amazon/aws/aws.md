@@ -270,6 +270,9 @@ The top of the Amazon Web Services training and development skills. This section
         - Locations designed to deliver content to end users.
     - EC2 "Memory Optimized" instance type
         - Designed to deliver fast performance for workloads that process large data sets in memory.
+    - EC2 "General Purpose" instance type
+        - Provides a balance of compute, memory and networking resources, and can be used for a variety of 
+          diverse workloads. 
     - Rehost: lift and shift
         - Consists of a simple transfer of application resources from an on-premises data center to the AWS cloud.
     - Shard Responsibility Model (Principles)
@@ -279,5 +282,10 @@ The top of the Amazon Web Services training and development skills. This section
         - APN Consulting Partners help customers design, architect, build, migrate, and manage their workloads 
           and applications on AWS.
         - APN Consulting Partners include Managed Service Providers (MSP).
+    - Amazon S3 Glacier 
+        - A low-cost object storage server designed for data archiving. 
+    - Containers
+        - Containers package applications's code, configurations, and dependencies into a single object. 
+    
     
     
