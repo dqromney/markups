@@ -21,9 +21,14 @@ The top of the Amazon Web Services training and development skills. This section
     - Enroll in Digital Training by selecting the "Find Training" button.   
     - The course I am currently taking is the "AWS Technical Profession", it has about 6-7 modules with a test 
     at the end of the course.  Test takes 30-45 minutes and consists of 30 multiple-choice questions. 
-      You need to get 80% correct to pass, and you can take it multiple times. 
-    
+      You need to get 80% correct to pass, and you can take it multiple times.
+    - Using the AWS [Partner Learning Path Tool](https://pages.awscloud.com/AWS-Partner-Learning-Path-Tool.html) I 
+      planned my learning path.  I my role is "Developer", and my Area of Focus is "Developer at an AWS Partner".
+      
 #### Course Work
+Using the AWS [Partner Learning Path Tool](https://pages.awscloud.com/AWS-Partner-Learning-Path-Tool.html) I planned
+my learning path.  I my role is "Developer", and my Area of Focus is "Developer at an AWS Partner". 
+
 ##### AWS Technical Professional: (Completed 2021-03-09 with 83.33% ~ 25 points)
 ###### Notes
 - Module 3: From Services to Solutions
