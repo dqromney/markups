@@ -222,15 +222,13 @@ The top of the Amazon Web Services training and development skills. This section
 
 ### Amazon Acronyms
 | Acronym | Description  |
-|:-:|:-:|
+|:-:|:-|
 | EC2 | Elastic Cloud Compute 2 |
 | MVP | Minimum Viable Product - See progress from the start, instead at the end of a long process. |
 | PoC | Proof-of-Concept |
 | IAM | Identity Access Management |
 | AWS | Amazon Web Services |
-| APN | Amazon Partner Network.  It is a resource providing APN Partners with the tools and content they
-need to grow their businesses on AWS. May include independent software vendors (ISVs). Provide hardware,
-connectivity services, and software solutions that are hosted on or integrated with the AWS Cloud. |
+| APN | Amazon Partner Network.  It is a resource providing APN Partners with the tools and content they need to grow their businesses on AWS. May include independent software vendors (ISVs). Provide hardware, connectivity services, and software solutions that are hosted on or integrated with the AWS Cloud. |
 | ROI | Return on Investment |
 | SaaS | Software as a Service, i.e. Salesforce |
 | TCO | Total Cost of Ownership |
@@ -242,8 +240,7 @@ connectivity services, and software solutions that are hosted on or integrated w
 | PDM | Partner Development Manager (Manages the relationship between you and AWS) |
 | MDF | Market Development Funding (Support marketing efforts) |
 | NACL | Network Access Control Lists (on the Subnet level) |
-| VPC | A logically isolated virtual network in the AWS cloud. You define a VPC’s IP address space
-from ranges you select. |
+| VPC | A logically isolated virtual network in the AWS cloud. You define a VPC’s IP address space from ranges you select. |
 | MSP | Managed Service Providers |
 | EBS | Elastic Block Store |
 
