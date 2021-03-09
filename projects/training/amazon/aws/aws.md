@@ -168,8 +168,49 @@ The top of the Amazon Web Services training and development skills. This section
             - Dashboards and Visualizations (Amazon QuickSight)
 
 - Module 6: AWS Partner Network (APN) Resources
-    - 
-
+    - APN consulting partner tier requirements
+        - Registered
+            Submit an APN Partner Central Application
+        - Select
+            - APN Program Fee: $2500/year
+            - Knowledge Requirements
+                - 4 Accredited Individuals (2 technical, 2 business)
+                - 2 AWS Foundational certified individuals
+                - 2 AWS Technical certified individuals
+            - Experience Requirements
+                - 3 Launched Opportunities (Total MMR > -$1,500)
+            - Customer Success requirements
+                - 1 Publicly Referenceable Customers
+                - 5 Customer Satisfaction (CSAT) Response
+        - Advanced
+            - APN Program Fee: $2500/year
+            - Knowledge Requirements
+                - 8 Accredited Individuals (4 technical, 4 business)
+                - 4 AWS Foundational certified individuals
+                - 6 AWS Technical certified individuals (3 Professional / Specialty)
+            - Experience Requirements
+                - 20 Launched Opportunities (Total MMR > -$10,000)
+                - Partner Business Plan
+            - Customer Success requirements
+                - 2 Publicly Referenceable Customers
+                - 20 Customer Satisfaction (CSAT) Response
+        Premier
+          - APN Program Fee: $2500/year
+          - Knowledge Requirements
+              - 20 Accredited Individuals (10 technical, 10 business)
+              - 10 AWS Foundational certified individuals
+              - 25 AWS Technical certified individuals (10 Professional / Specialty)
+          - Experience Requirements
+              - 50 Launched Opportunities (Total MMR > -$50,000)
+              - Partner Business Plan
+              - Executive Business Review
+              - 3 Technical Program Validations
+              - Greater than 6 months Sustained at APN Tier Criteria
+          - Customer Success requirements
+              - 6 Publicly Referenceable Customers
+              - 30 Customer Satisfaction (CSAT) Response
+          
+                  
 - Acronyms
     - MVP - Minimum Viable Product - See progress from the start, instead at the end of a long process.
     - PoC - Proof-of-Concept
@@ -180,6 +221,8 @@ The top of the Amazon Web Services training and development skills. This section
     - SaaS - Software as a Service, i.e. Salesforce
     - TCO - Total Cost of Ownership
     - PaaS - Platform as a Service
+    - ISV - Independent Software Vendors (Saas, PaaS, Developer Tools, Management, Security)
+    - MRR - ?
     
 - Terms
     - AWS Landing Zone
