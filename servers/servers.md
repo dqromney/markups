@@ -9,8 +9,7 @@ These are applications used to build and deploy applications.
 
 ### Database Servers
 
-* [MySQL Server](jdbc:mysql://192.168.0.42:3306) ~ jdbc:mysql://192.168.0.42:3306 root/
-* [MySQL Server (Docker)](jdbc:mysql://ubuntu-64.local:3306) ~ jdbc:mysql://ubuntu-64.local:3306 root/
+* [MySQL Server (Docker)](jdbc:mysql://ub4:3306) ~ jdbc:mysql://ubuntu-64.local:3306 root/
     * [Some commands](https://github.com/docker-library/mysql/issues/230) to make DB available to outside users.
     * (Docker shell) bash-4.2# mysql --user=root --password=somepassword
     *  mysql> SELECT User,authentication_string FROM mysql.user;
@@ -45,4 +44,4 @@ These are applications used to store documentation and source code for applicati
 | Raspberry Pi 4 | 192.168.1.105 | rpi4-8 | Linux rpi4-8 5.10.11-v7l+ #1399 SMP Thu Jan 28 12:09:48 GMT 2021 armv7l GNU/Linux  | 64-bit 8 GB  |
 | Debian 9 | 192.168.1.108 | deb32  | Linux debian 4.9.0-14-686-pae #1 SMP Debian 4.9.246-2 (2020-12-17) i686 GNU/Linux | 32 bit 16 GB with 1 TB onboard storage  |
 | MacMini 2013 | 192.168.1.110  | macmini  | Darwin Davids-MacMini.local 16.7.0 Darwin Kernel Version 16.7.0: Thu Jun 15 17:36:27 PDT 2017; root:xnu-3789.70.16~2/RELEASE_X86_64 x86_64 | i7 4GB, 1TB storage  |
-| Macbook Pro 2013 | 192.168.1.112 | mbpro |  | TBD  |
+| MacBook Pro (Retina, 15-inch, Mid 2014 | 192.168.1.112 | mbpro | Darwin DQR-2.local 18.7.0 Darwin Kernel Version 18.7.0: Tue Jan 12 22:04:47 PST 2021; root:xnu-4903.278.56~1/RELEASE_X86_64 x86_64 | 2.8 GHz Intel Core i7 |
