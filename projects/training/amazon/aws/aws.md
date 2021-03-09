@@ -28,8 +28,10 @@ The top of the Amazon Web Services training and development skills. This section
 - Module 3: From Services to Solutions
     - Migration Strategies - The Six R's
         - Rehost: lift and shift
+            - Strategy consists of a simple transfer of application resources from an on-premises data center 
+              to the AWS cloud.
         - Replatform: lift, tinker, and shift
-        - Refactor: modernize
+        - Refactor: Modernize. Consists of re-architecting an application, typically using cloud native features. 
         - Retire: Shutting off non-useful applications 
         - Retain/Revisit: Keeping certain applications on-premises
         - Repurchase: Moving workflows to Software as a Service (SaaS), like Salesforce.
@@ -219,21 +221,27 @@ The top of the Amazon Web Services training and development skills. This section
           
                   
 - Acronyms
+    - EC2 - Elastic Cloud Compute 2
     - MVP - Minimum Viable Product - See progress from the start, instead at the end of a long process.
     - PoC - Proof-of-Concept
     - IAM - Identity Access Management
     - AWS - Amazon Web Services
-    - APN - Amazon Partner Network
+    - APN - Amazon Partner Network.  It is a resource providing APN Partners with the tools and content they 
+      need to grow their businesses on AWS. May include independent software vendors (ISVs). Provide hardware, 
+      connectivity services, and software solutions that are hosted on or integrated with the AWS Cloud.
     - ROI - Return on Investment
     - SaaS - Software as a Service, i.e. Salesforce
     - TCO - Total Cost of Ownership
     - PaaS - Platform as a Service
     - ISV - Independent Software Vendors (Saas, PaaS, Developer Tools, Management, Security)
-    - MRR - ?
+    - MRR - Marginal Rate of Return or Monthly Recurring Revenue
     - POA - Partner Opportunity Acceleration 
-    - PDR - Partner Development Representative
-    - PDM - Partner Development Manager
+    - PDR - Partner Development Representative (First point of contact, and helps with on-boarding)
+    - PDM - Partner Development Manager (Manages the relationship between you and AWS)
     - MDF - Market Development Funding (Support marketing efforts)
+    - NACL - Network Access Control Lists (on the Subnet level)
+    - VPC - A logically isolated virtual network in the AWS cloud. You define a VPC’s IP address space 
+      from ranges you select.
     
 - Terms
     - AWS Landing Zone
@@ -243,4 +251,14 @@ The top of the Amazon Web Services training and development skills. This section
           with just enough features to satisfy a customer's requirements at initial adoption, and leaves room for 
           feedback as you get more complex. PoC -> MVP (Production-Level)
     - Data Lakes - A large storage repository that holds data in their original format prior to being parsed 
-      and analyzed. Examples are: Hadoop which is designed to hold huge amounts of data. 
+      and analyzed. Examples are: Hadoop which is designed to hold huge amounts of data.
+    - AWS Regions
+        - Separate, isolated geographic areas that contain available zones. 
+    - AWS Availability Regions 
+        - A Region designed to be isolated from the other AWS Regions. This design achieves the greatest 
+          possible fault tolerance and stability. You can think of AWS regions as fairly independent collections 
+          of data centers within a specific geographic area. An AWS region, thereby, can be thought of as a 
+          collection of availability zones.
+    - AWS Availability Zones
+        - A good way to think about availability zones is to consider an AZ as equivalent to a data center. 
+          Isolated locations within a geographical region, containing one or more data centers.
