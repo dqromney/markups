@@ -302,6 +302,14 @@ is required for course completion.
     - Migration costs
         - Calculating migration costs typically requires an in-depth analysis, and these costs can range 
           between hundreds of dollars to tens of thousands of dollars per server, in extreme cases. 
+        - With the help of AWS training and tools like the Migration Portfolio Assessment, or MPA, tool, 
+          you can gain additional knowledge to help you conduct an effective cost analysis.
+        - Knowing the cost savings per year, the sunk cost, and the ROI, you calculate the break-even 
+          migration cost and divide by the number of servers.  If the value of the break even cost per server is low,
+          evaluate other components. You can check whether the cost saving can be improved, sunk costs can be
+          decreased, or ROI can be lowered. If the break even value per server is high, the customer is on the safer
+          side of the equation. See Migration Cost Formula above.
+          
 - Module 3: Staff Productivity
     - Quantifying the impact AWS has on staff productivity versus traditional IT
     - Customer examples
@@ -412,6 +420,8 @@ is required for course completion.
     - Enough data to make a decision for AWS resources. 
 - Behavior
     - Is data usage tool spiky for Reserved Instances? Will Spot Instances work better?
+- Migration costs formula
+    - ROI = Cost savings / (Sunk costs + Migration costs)    
 
     
     
