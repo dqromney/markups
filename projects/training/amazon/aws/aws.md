@@ -439,7 +439,22 @@ is required for course completion.
           - Commonplace accidents in the data center, like tripping over power cords, dropping equipment, 
             or disconnecting devices. 
       - Security
-      - Software,
+        - Causes for breaches
+            - Malware, such as works, viruses, and Trojan horses
+            - Network Attacks, like open ports, SYN floods, and fragmented packets
+            - Unpatched applications or operating systems
+            - Security issues, such as password disclosures, social engineering, credentials not stored securely, 
+              non-strict password policies, and poor privilege and access management, and
+            - Poor or limited authentication
+        - How AWS helps
+            - AWS has a shared security model, which means that AWS shares security responsibilities with 
+              customers. In this model, AWS is responsible for the security of everything from the hypervisor 
+              level to the operating system.
+            - Reduces security risks in numerous ways
+                - Denial of service attacks
+                - IAM to reduce or eliminate the existence of Rogue servers
+                - 30 plus compliance certifications for environments
+    - Software,
       - Infrastructure
     - Benefits of improved operational resilience
     - Causes and impacts of downtime
@@ -453,6 +468,11 @@ is required for course completion.
       - Business disruption costs
       - And more
     - How AWS mitigates operational failures
+      - Leverages automation
+      - Manages services from end to end
+      - Provides system-wide visibility for usage, performance, and operational metrics
+      - Enables security and governance configuration of AWS resources
+      - Monitors API access
     - Customer examples
 - Module 5: Business Agility
     - Key performance indicators to measure business agility
