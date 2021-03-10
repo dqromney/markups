@@ -309,7 +309,33 @@ is required for course completion.
           evaluate other components. You can check whether the cost saving can be improved, sunk costs can be
           decreased, or ROI can be lowered. If the break even value per server is high, the customer is on the safer
           side of the equation. See Migration Cost Formula above.
-          
+    - Cloud Readiness
+        - Human Factor (Biggest challenge)
+            - It is crucial to commence them preparation as soon as the decision to transition to AWS is made. 
+        - Applications
+            - The customer's legacy applications or workloads are not ready for (or would not immediately 
+              benefit from) moving to the cloud.
+        - App readiness questions
+            - What are you application dependencies?
+            - What apps are communicating with other apps?
+            - What apps can be translated easily?
+        - Stakeholders
+            - Cost savings engagement may require multiple discussions with different messages fro different audiences:
+                - Application developer (DevOps)
+                - IT Support team
+                - Procurement team
+                - CFO/CIO/Investors
+        - Perceived IT Costs
+            - Server costs
+                - Hardware - server, (+maintenance)
+                - Software - OS, virtualization licenses (+maintenance)
+            - Storage costs
+                - Hardware - storage disks
+            - Network costs
+                - Network hardware - LAN switches, load balancer bandwidth costs
+            - IT Labor costs
+                - Server admin, virtualization admin
+    
 - Module 3: Staff Productivity
     - Quantifying the impact AWS has on staff productivity versus traditional IT
     - Customer examples
