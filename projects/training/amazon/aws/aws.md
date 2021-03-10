@@ -284,12 +284,15 @@ is required for course completion.
             - Cost (and effort) of migration and decommissioning
                 - Occurs when a customer moves their existing footprint to the cloud and shuts down their 
                   data center, which requires time and effort.
+            - Migration costs formula
+                - ROI = Cost savings / (Sunk costs + Migration costs)
         - Shifting to an operational expenditure (opex) model
         - Lack of cloud readiness
         - Entrenched IT organization
     - AWS Flywheel: 
       - Lower infrastructure costs => Reduced Prices => More customers => More AWS usage => More infrastructure => Economies of scale => (Lower infrastructure costs) ...
-    
+    - Sunk costs
+        - 
 - Module 3: Staff Productivity
     - Quantifying the impact AWS has on staff productivity versus traditional IT
     - Customer examples
