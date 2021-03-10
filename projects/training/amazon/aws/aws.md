@@ -258,7 +258,17 @@ is required for course completion.
         customer wants to under the costs involved with running applications or workloads over owned IT 
         hardware verses AWS.
     - Lowering costs with AWS
+        - Helps your customer lower their costs through the use of a consumption-based model, AWS pricing 
+          models, and frequent price reductions.
     - Customer migration challenges
+        - Over-provision vs. under-provision - Helps your customers avoid inefficiencies and financial 
+          losses by enabling your customers to launch the infrastructure they need when they need it.
+    - AWS Pricing Models
+        - On-Demand
+          - This is, typically, where customers start, in an effort to gauge their needs, and then switch to Reserved Instances, or RIs, once they know their demand baseline. 
+        - Reserved
+        - Spot
+        - Dedicated
 - Module 3: Staff Productivity
     - Quantifying the impact AWS has on staff productivity versus traditional IT
     - Customer examples
@@ -360,7 +370,11 @@ is required for course completion.
 - Serverless Architectures
     - Serverless architectures run applications without provisioning, maintaining, and administering servers. 
 - Amazon Elastic Block Store
-    - Amazon EBS provides persistent block level storage volumes for use with Amazon EC2 instances. 
+    - Amazon EBS provides persistent block level storage volumes for use with Amazon EC2 instances.
+- Reserved Instances - Can reduce costs by up to 75 percent versions On-Demand.
+- Spot Instance - AWS excess capacity sold for a deep discount is called a Spot Instance.
+- Dedicated Hosts - Used for customers with regulatory or software licensing constraints who need their own hosts. 
+
     
     
     
