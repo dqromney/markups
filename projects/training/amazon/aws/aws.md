@@ -233,6 +233,7 @@ is required for course completion.
 
 ###### Notes
 - Module 1: Introduction to *Business Value* (Primary Focus)
+    - It is more than just up front cost savings.
     - Cloud Value Framework - Four Pillars
         - Cost savings (TCO) (Typical Focus) (over-all 51% lower cost)
             - Cost savings is typically the most common focus for customers because it involves concrete numbers. 
