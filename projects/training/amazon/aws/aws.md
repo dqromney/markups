@@ -232,12 +232,24 @@ Please complete all the of the modules below, and the course assessment.  A scor
 is required for course completion.
 
 ###### Notes
-- Module 1: Introduction to Business Value
-    - Cloud Value Framework
-    - Cost savings
-    - Staff productivity
-    - Operational resilience
-    - Business agility
+- Module 1: Introduction to *Business Value* (Primary Focus)
+    - Cloud Value Framework - Four Pillars
+        - Cost savings (TCO) (Typical Focus) (over-all 51% lower cost)
+            - Cost savings is typically the most common focus for customers because it involves concrete numbers. 
+              Once you acquire current cost numbers from a customer, which can sometimes be difficult to , you 
+              apply logic to them. Then, you show your customer how much they are paying currently versus what 
+              they would pay using AWS.
+        - Staff productivity (Most compelling cloud benefits)
+            - Refers to the efficiency gained from reducing or eliminating tasks no longer needed with the cloud. 
+              By relieving staff of tasks, they will have more time to focus on new projects.  62% greater efficiency of
+              IT infrastructure staff.   
+        - Operational resilience (Most compelling cloud benefits)
+          - The benefit gained from improved availability and security. The means more uptime, less downtime, and 
+            decreased risk. Reduced unplanned downtime by 32% by moving existing workloads from on-premises to the cloud
+            using AWS.
+        - Business agility (Most compelling cloud benefits)
+            - Means being able to response faster and experiment more. Higher user productivity and revenue 
+              represents 47% of the total average annual benefits per organization for AWS customers.
 - Module 2: Cost Savings Basics
     - Why cost savings matters
     - Lowering costs with AWS
@@ -255,7 +267,7 @@ is required for course completion.
     - Key performance indicators to measure business agility
     - How increased business agility allows for innovation and decreased risks and costs
     - Customer examples
-- Module 6: Cloud Financial Management
+- Module 6: *Cloud Financial Management* (Primary Focus)
     - Four key areas of cloud financial management
     - Measurement and accountability
     - Cost optimization
@@ -292,6 +304,7 @@ is required for course completion.
 | VPC | A logically isolated virtual network in the AWS cloud. You define a VPC’s IP address space from ranges you select. |
 | MSP | Managed Service Providers |
 | EBS | Elastic Block Store |
+| MPA | Migration Portfolio Assessment |
 
 ### Amazon Terms 
 - AWS Landing Zone
