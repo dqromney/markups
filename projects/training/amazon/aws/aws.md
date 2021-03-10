@@ -258,17 +258,30 @@ is required for course completion.
         customer wants to under the costs involved with running applications or workloads over owned IT 
         hardware verses AWS.
     - Lowering costs with AWS
-        - Helps your customer lower their costs through the use of a consumption-based model, AWS pricing 
-          models, and frequent price reductions.
+        - Helps your customer lower their costs through the use of a *consumption-based model*, *AWS pricing 
+          models*, and *frequent price reductions*.
+        - Consumption-based model  (1st Way)
+          - A Customer pays only for what they use. 
+        - AWS Pricing Models (2nd Way)
+          - On-Demand
+              - This is, typically, where customers start, in an effort to gauge their needs, and then switch to Reserved Instances, or RIs, once they know their demand baseline.
+          - Reserved
+              - Can reduce costs by up to 75 percent versions On-Demand.
+          - Spot
+              - AWS excess capacity sold for a deep discount is called a Spot Instance.
+          - Dedicated
+              - Used for customers with regulatory or software licensing constraints who need their own hosts.
+        - Frequent Price Reductions (3rd Way)
+            - Economies of scale allows AWS to continually lower costs. 
+            - Periodic price reductions, customers automatically receive the lower prices. 
     - Customer migration challenges
         - Over-provision vs. under-provision - Helps your customers avoid inefficiencies and financial 
           losses by enabling your customers to launch the infrastructure they need when they need it.
-    - AWS Pricing Models
-        - On-Demand
-          - This is, typically, where customers start, in an effort to gauge their needs, and then switch to Reserved Instances, or RIs, once they know their demand baseline. 
-        - Reserved
-        - Spot
-        - Dedicated
+        - Migration-related costs
+        - Shifting to an operational expenditure (opex) model
+    - AWS Flywheel: 
+      - Lower infrastructure costs => Reduced Prices => More customers => More AWS usage => More infrastructure => Economies of scale => (Lower infrastructure costs) ...
+    
 - Module 3: Staff Productivity
     - Quantifying the impact AWS has on staff productivity versus traditional IT
     - Customer examples
@@ -320,6 +333,7 @@ is required for course completion.
 | MSP | Managed Service Providers |
 | EBS | Elastic Block Store |
 | MPA | Migration Portfolio Assessment |
+| OPEX | Operational Expenditure Model |
 
 ### Amazon Terms 
 - AWS Landing Zone
@@ -374,6 +388,10 @@ is required for course completion.
 - Reserved Instances - Can reduce costs by up to 75 percent versions On-Demand.
 - Spot Instance - AWS excess capacity sold for a deep discount is called a Spot Instance.
 - Dedicated Hosts - Used for customers with regulatory or software licensing constraints who need their own hosts. 
+- Maturity
+    - Enough data to make a decision for AWS resources. 
+- Behavior
+    - Is data usage tool spiky for Reserved Instances? Will Spot Instances work better?
 
     
     
