@@ -279,6 +279,8 @@ is required for course completion.
           losses by enabling your customers to launch the infrastructure they need when they need it.
         - Migration-related costs
         - Shifting to an operational expenditure (opex) model
+        - Lack of cloud readiness
+        - Entrenched IT organization
     - AWS Flywheel: 
       - Lower infrastructure costs => Reduced Prices => More customers => More AWS usage => More infrastructure => Economies of scale => (Lower infrastructure costs) ...
     
