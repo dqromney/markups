@@ -454,7 +454,13 @@ is required for course completion.
                 - Denial of service attacks
                 - IAM to reduce or eliminate the existence of Rogue servers
                 - 30 plus compliance certifications for environments
-    - Software,
+    - Software
+      - Causes for failure
+        - Resource exhaustion, like runaway processes, memory leaks, and file growth
+        - Computational or logic errors, such as faulty references, de-allocated memory, corrupt pointers, 
+          sync errors, and race conditions.
+        - Inadequate monitoring, such as the inability to identy issues, and 
+        - Failed upgrades, such as intercompatibility and integrations  
       - Infrastructure
     - Benefits of improved operational resilience
     - Causes and impacts of downtime
