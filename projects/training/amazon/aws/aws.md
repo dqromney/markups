@@ -366,10 +366,57 @@ is required for course completion.
                 - Competitive abilities
                 - Governance
                 - Others
+    - What works
+        - 3-5 year depreciation
+        - 3 year RI (using Standard Reserve Pricing)
+        - Use volume RI discounts
+        - Use realistic ratios
+        - Use realistic ratios (VM density, servers, racks)
+        - Explore on-premises CPU and mem usage
+        - Apply cost benefits of automation (automatic scaling, APIs, AWS Trusted Advisor, Cost Optimization)
+    - What to avoid
+        - Forget power/cooling (compute, storage, network)
+        - Forget administration costs (procurement, design, build, operations, network, security)
+        - Forget rent/real estate
+        - Forget software and hardware maintenance costs
+        - Forget the cost of redundancy
+    - Delivering cost savings
+        - Kickoff
+            - Cost savings overview
+            - Timeline, scope, and roles
+        - Data collection or gathering (2-4 weeks) 
+        - Initial assessment (~1 week) Q&A
+            - Review data
+            - Initial assessment
+            - ID open questions, assumptions
+        - Full assessment
+            - Incorporate new data
+            - Repeat as needed
+        - Iterate and finalize (~1 week)
+          - As often as needed. 
+        - Customer report out
+    - Tools to assist a customer during the process
+        - AWS TCO Calculator
+            - https://awstcocalculator.com
+        - AWS Economics Center
+            - http://aws.amazon.com/economics/
+        - Case Studies and Research
+            - http://aws.amazon.com/solutions/case-studies
+    - TSO Logic (Aquired December 2018 by Amazon) Software
+        - On-premises analysis and cloud planning
+    - Migration Portfolio Assessment Tool
+        - Guided data ingestion
+        - Right-sized EC2 instance and strage recommendations
+        - Run rate cost comparison
+        - Over 100 variables with prepopulated industry defaults
+        - Migration pattern analysis and recommendations (7Rs)
+        - Migration estimating for resources, timelines, and costs
+        - Customizable dashboards to visualize data
+        - Secure access to APN Advanced and Premier Tiers
 - Module 3: Staff Productivity
     - Quantifying the impact AWS has on staff productivity versus traditional IT
     - Customer examples
-- Module 4: Operational Resilience
+- Module 4: Operational
     - Four key areas of operational resilience
     - Benefits of improved operational resilience
     - Causes and impacts of downtime
