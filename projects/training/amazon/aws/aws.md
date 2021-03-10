@@ -292,7 +292,11 @@ is required for course completion.
     - AWS Flywheel: 
       - Lower infrastructure costs => Reduced Prices => More customers => More AWS usage => More infrastructure => Economies of scale => (Lower infrastructure costs) ...
     - Sunk costs
-        - 
+        - Ask the accounting department for non-depreciated assets for the hardware you are evaluating. You should there always evaluate the sunk costs for two factors:
+            - Depreciation
+              - Was the asset's depreciation considered?
+            - Recovery value
+                - Can any value be recovered by selling the asset?
 - Module 3: Staff Productivity
     - Quantifying the impact AWS has on staff productivity versus traditional IT
     - Customer examples
