@@ -361,7 +361,8 @@ is required for course completion.
 | MSP | Managed Service Providers |
 | EBS | Elastic Block Store |
 | MPA | Migration Portfolio Assessment |
-| OPEX | Operational Expenditure Model |
+| OPEX | Operational Expenditure Model; One common rule: one dollar of OPEX is worth two dollars in CAPEX. |
+| CAPEX | Capital Expenditure Model; One common rule: two dollars in CAPEX is worth one dollar of OPEX. |
 
 ### Amazon Terms 
 - AWS Landing Zone
