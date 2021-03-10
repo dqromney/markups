@@ -414,9 +414,22 @@ is required for course completion.
         - Customizable dashboards to visualize data
         - Secure access to APN Advanced and Premier Tiers
 - Module 3: Staff Productivity
+    - Refers to the efficiency gained from reducing or eliminating tasks no longer needed with cloud services.
+    - Staff productivity: Typical functions (each as 10-15 primary activities)
+        - Server, Network, Storage
+          - Involves managing hardware infrastructure
+        - Application
+            - Covered by roles such as database administrators, AppDev, QA, and support functions.
+        - Facilities
+            - Primarily cover facilities management and includes roles for customers who have an on-premises 
+              data center.
+        - Security
+            - Ensure that the company infrastructure meets compliance, regulatory, and corporate standards.
     - Quantifying the impact AWS has on staff productivity versus traditional IT
     - Customer examples
-- Module 4: Operational
+- Module 4: Operational Resilience
+    - Is the benefit gained from improved availability and security. This means more uptime, less downtime, and 
+      decreased risk.
     - Four key areas of operational resilience
     - Benefits of improved operational resilience
     - Causes and impacts of downtime
@@ -466,6 +479,7 @@ is required for course completion.
 | MPA | Migration Portfolio Assessment |
 | OPEX | Operational Expenditure Model; One common rule: one dollar of OPEX is worth two dollars in CAPEX. |
 | CAPEX | Capital Expenditure Model; One common rule: two dollars in CAPEX is worth one dollar of OPEX. |
+| DDoS | Distributed Denial of Service |
 
 ### Amazon Terms 
 - AWS Landing Zone
