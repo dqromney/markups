@@ -253,6 +253,10 @@ is required for course completion.
               represents 47% of the total average annual benefits per organization for AWS customers.
 - Module 2: Cost Savings Basics
     - Why cost savings matters
+      - A Cost savings analysis calculates the total cost of ownership (aquisition and operating case) for 
+        running and end-to-end traditional IT environment on-premises vs. deploying to AWS. Or when your 
+        customer wants to under the costs involved with running applications or workloads over owned IT 
+        hardware verses AWS.
     - Lowering costs with AWS
     - Customer migration challenges
 - Module 3: Staff Productivity
