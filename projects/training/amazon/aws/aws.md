@@ -431,8 +431,27 @@ is required for course completion.
     - Is the benefit gained from improved availability and security. This means more uptime, less downtime, and 
       decreased risk.
     - Four key areas of operational resilience
+      - Operations
+        - Causes for failure
+          - Human errors, such as lack of clearly defined procedures or use privilege
+          - Configuration errors in hardware or operating system settings and startup scripts
+          - Procedure errors, like restoring the wrong back or forgetting to restart a device, and
+          - Commonplace accidents in the data center, like tripping over power cords, dropping equipment, 
+            or disconnecting devices. 
+      - Security
+      - Software,
+      - Infrastructure
     - Benefits of improved operational resilience
     - Causes and impacts of downtime
+      - Third-party fees
+      - Equipment replacement
+      - After-the-fact incidental costs
+      - Recovery activities and costs
+      - Detection costs associated with initial discovery and subsequent investigation.
+      - Unproductive IT staff and end-user costs
+      - Lost revenue
+      - Business disruption costs
+      - And more
     - How AWS mitigates operational failures
     - Customer examples
 - Module 5: Business Agility
