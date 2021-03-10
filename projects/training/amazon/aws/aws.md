@@ -278,6 +278,12 @@ is required for course completion.
         - Over-provision vs. under-provision - Helps your customers avoid inefficiencies and financial 
           losses by enabling your customers to launch the infrastructure they need when they need it.
         - Migration-related costs
+          - Sunk infrastructure costs
+            - When customers want to retire hardware but then have not fully depreciated it and they have 
+              not had an opportunity to recover the non-deprecated value of their investments by selling it.
+            - Cost (and effort) of migration and decommissioning
+                - Occurs when a customer moves their existing footprint to the cloud and shuts down their 
+                  data center, which requires time and effort.
         - Shifting to an operational expenditure (opex) model
         - Lack of cloud readiness
         - Entrenched IT organization
