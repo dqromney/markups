@@ -335,7 +335,37 @@ is required for course completion.
                 - Network hardware - LAN switches, load balancer bandwidth costs
             - IT Labor costs
                 - Server admin, virtualization admin
-    
+        - Actual cost
+            - Server costs
+                - Hardware - server, rack chassis pdus, tor switches (+maintenance)
+                - Software - OS, virtualization licenses (+maintenance)
+                - Facilities cost
+                    - Space
+                    - Power
+                    - Cooling
+            - Storage costs
+                - Hardware - storage disks, san/fc switches
+                - Software - backup
+                - Facilities cost
+                  - Space
+                  - Power
+                  - Cooling
+            - Network costs
+                - Network hardware - LAN switches, load balancer, bandwidth costs
+                - Software - network monitoring  
+                - Facilities cost
+                  - Space
+                  - Power
+                  - Cooling
+            - IT Labor costs
+                - Server admin, virtualization admin, storage admin, network admin, support team
+            - Extras
+                - Project planning, advisors, legal, contractors, managed services, training, cost of capital.
+            - Impact on Operational resilience and business agility
+                - Cost of delays risk premium
+                - Competitive abilities
+                - Governance
+                - Others
 - Module 3: Staff Productivity
     - Quantifying the impact AWS has on staff productivity versus traditional IT
     - Customer examples
