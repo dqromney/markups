@@ -427,9 +427,9 @@ is required for course completion.
             - Ensure that the company infrastructure meets compliance, regulatory, and corporate standards.
     - Quantifying the impact AWS has on staff productivity versus traditional IT
     - Customer examples
-- Module 4: Operational Resilience
-    - Is the benefit gained from improved availability and security. This means more uptime, less downtime, and 
-      decreased risk.
+- Module 4: Operational Resilience 
+  Is the benefit gained from improved availability and security. This means more uptime, less downtime, and 
+  decreased risk.
     - Four key areas of operational resilience
       - Operations
         - Causes for failure
@@ -454,55 +454,54 @@ is required for course completion.
                 - Denial of service attacks
                 - IAM to reduce or eliminate the existence of Rogue servers
                 - 30 plus compliance certifications for environments
-    - Software
-      - Causes for failure
-        - Resource exhaustion, like runaway processes, memory leaks, and file growth
-        - Computational or logic errors, such as faulty references, de-allocated memory, corrupt pointers, 
-          sync errors, and race conditions.
-        - Inadequate monitoring, such as the inability to identy issues, and 
-        - Failed upgrades, such as intercompatibility and integrations
-      - How AWS helps
-        - Offices blue and green deployments that allow for quick rollbacks
-        - Automates continuous integration and continuous delivery workflow
-        - Runs smaller code deployments to reduce unit, integration, and system bugs
-        - Provides current and secure resources with OS patching, and 
-        - Creates and manages a collection of related AWS resources
-    - Infrastructure
-        - Causes for failure
-            - Hardware failure of servers, storage, or networks
-            - Natural disaster, like hurricanes, floods, and earthquakes
-            - Power outages, including failed power supplies and batteries
-            - Volumetric attacks, such as DDoS's; Domain Name System, or DNS, amplification; or UDP/ICMP floods.  
-        - How AWS helps
-            - AWS continues to expand our world-class infrastructure and leads the industry in improving data 
-              centers on a massive scale.
-            - Our customers can run applications and failover across multiple Availability Zones and Regions.
-            - AWS systems are designed to be highly available and durable. S3 is designed to provide eleven 
-              nines of durability and four nines of availability. Amazon Elastic Compute Cloud, or Amazon EC2, 
-              is designed for four nines of availability, and Amazone Elastic Block Store, Amazone EBS, volumes 
-              are designed for five nines of availability.
-            - As a standard, each AWS Availability Zone in each Region is redundantly connected to multiple 
-              tier-one transit providers. 
-            - And, AWS, every compute instance is served by two independent power sources, each with utility, 
-              UPS, and back-up generator power.  
-- Benefits of improved operational resilience
-    - Causes and impacts of downtime
-      - Third-party fees
-      - Equipment replacement
-      - After-the-fact incidental costs
-      - Recovery activities and costs
-      - Detection costs associated with initial discovery and subsequent investigation.
-      - Unproductive IT staff and end-user costs
-      - Lost revenue
-      - Business disruption costs
-      - And more
-    - How AWS mitigates operational failures
-      - Leverages automation
-      - Manages services from end to end
-      - Provides system-wide visibility for usage, performance, and operational metrics
-      - Enables security and governance configuration of AWS resources
-      - Monitors API access
-    - Customer examples
+        - Software
+          - Causes for failure
+            - Resource exhaustion, like runaway processes, memory leaks, and file growth
+            - Computational or logic errors, such as faulty references, de-allocated memory, corrupt pointers, 
+              sync errors, and race conditions.
+            - Inadequate monitoring, such as the inability to identy issues, and 
+            - Failed upgrades, such as intercompatibility and integrations
+          - How AWS helps
+            - Offices blue and green deployments that allow for quick rollbacks
+            - Automates continuous integration and continuous delivery workflow
+            - Runs smaller code deployments to reduce unit, integration, and system bugs
+            - Provides current and secure resources with OS patching, and 
+            - Creates and manages a collection of related AWS resources
+        - Infrastructure
+            - Causes for failure
+                - Hardware failure of servers, storage, or networks
+                - Natural disaster, like hurricanes, floods, and earthquakes
+                - Power outages, including failed power supplies and batteries
+                - Volumetric attacks, such as DDoS's; Domain Name System, or DNS, amplification; or UDP/ICMP floods.  
+            - How AWS helps
+                - AWS continues to expand our world-class infrastructure and leads the industry in improving data 
+                  centers on a massive scale.
+                - Our customers can run applications and failover across multiple Availability Zones and Regions.
+                - AWS systems are designed to be highly available and durable. S3 is designed to provide eleven 
+                  nines of durability and four nines of availability. Amazon Elastic Compute Cloud, or Amazon EC2, 
+                  is designed for four nines of availability, and Amazone Elastic Block Store, Amazone EBS, volumes 
+                  are designed for five nines of availability.
+                - As a standard, each AWS Availability Zone in each Region is redundantly connected to multiple 
+                  tier-one transit providers. 
+                - And, AWS, every compute instance is served by two independent power sources, each with utility, 
+                  UPS, and back-up generator power.  
+    - Benefits of improved operational resilience
+        - Causes and impacts of downtime
+            - Third-party fees
+            - Equipment replacement
+            - After-the-fact incidental costs
+            - Recovery activities and costs
+            - Detection costs associated with initial discovery and subsequent investigation.
+            - Unproductive IT staff and end-user costs
+            - Lost revenue
+            - Business disruption costs
+            - And more
+        - How AWS mitigates operational failures
+            - Leverages automation
+            - Manages services from end to end
+            - Provides system-wide visibility for usage, performance, and operational metrics
+            - Enables security and governance configuration of AWS resources
+            - Monitors API access
 - Module 5: Business Agility
     - Key performance indicators to measure business agility
     - How increased business agility allows for innovation and decreased risks and costs
