@@ -545,6 +545,14 @@ is required for course completion.
             - Conversion rates increase. 
 - Module 6: *Cloud Financial Management* (Primary Focus)
     - Four key areas of cloud financial management
+      - *Measurement and accountability* means establishing cost transparency and accountability through the 
+        necessary steps to ensure visibility into spend.
+      - *Cost optimization* means identifying waste, building cloud-friendly architectures that scale based 
+        on demand, and improving cost efficiency.
+      - *Planning and Forecasting* means gaining a better understanding of costs associated with current 
+        and future needs, which drives more accurate financial and business planning.
+      - *Cloud Financial Operations* means identifying and investing in people, processes, tools, and 
+        automation to support cloud financial management.   
     - Measurement and accountability
     - Cost optimization
     - Planning and forecasting
