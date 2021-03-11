@@ -554,6 +554,17 @@ is required for course completion.
       - *Cloud Financial Operations* means identifying and investing in people, processes, tools, and 
         automation to support cloud financial management.   
     - Measurement and accountability
+      - Repeatable, sustainable cost management at scale.
+      - Enabling cost transparency (tags)
+        - What *cost center* does it belong to? This may belong to more than one. 
+        - What *application or workload* does it support?
+        - *Who owns it*?
+        - What is the *expiration date*? When should it be turned off? This helps with Reserved Instance purchasing.
+        - And lastly, *automation*. Automation tags can state directions such as "shut me down on the 
+          weekend" for a non-production environmnet, or "This instance runs non-critical workloads and can 
+          be freed up for disaster recovery in case of a malfunction on a different Availability Zone."
+        - Note: Many APN Partners have built automated tagging tools, which can be helpful once they have built 
+          their tagging strategy, including GorillaStack, Cloudability, and CloudHealth by VMWare.   
     - Cost optimization
     - Planning and forecasting
     - Cloud financial operations
