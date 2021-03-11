@@ -503,11 +503,11 @@ is required for course completion.
             - Enables security and governance configuration of AWS resources
             - Monitors API access
 - Module 5: Business Agility
-  Business agility is about delivering more - suchas responding faster, experimenting more, and delivering 
+  Business agility is about delivering more - such as responding faster, experimenting more, and delivering 
   results in the same or less  amount of time.  It means being able to deliver more values to customers. 
   For example, business agility can promote product development, expansion into new markets, and internal 
   or external stakeholder responsiveness. 
-    - Key performance indicators to measure business agility
+    - Key performance indicators (KPIs) to measure business agility
       - New applications launched per year
       - Time to market for new applications
       - Time to provision new environments (days) 
@@ -537,6 +537,8 @@ is required for course completion.
         - Some of the most important activities that a healthy business must do to continue to grow 
           and innovate are to scope, prioritize, and take on new initiatives.  You can think about the 
           initiative process like a project funnel.
+        - Being able to easily shut down failed initiatives without the pain and wasted resources associated 
+          with an inflexible on-premises environment.  
         - Customers gain the power and flexibility to put more potential projects into the funnel for consideration.   
     - Customer examples
         - Business Agility
