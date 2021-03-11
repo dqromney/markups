@@ -503,16 +503,51 @@ is required for course completion.
             - Enables security and governance configuration of AWS resources
             - Monitors API access
 - Module 5: Business Agility
+  Business agility is about delivering more - suchas responding faster, experimenting more, and delivering 
+  results in the same or less  amount of time.  It means being able to deliver more values to customers. 
+  For example, business agility can promote product development, expansion into new markets, and internal 
+  or external stakeholder responsiveness. 
     - Key performance indicators to measure business agility
+      - New applications launched per year
+      - Time to market for new applications
+      - Time to provision new environments (days) 
+      - Deployment frequeny (revolutions/year)
+      - Time to deploy to production (weeks)
+      - Time to deploy to test (days)
+      - Features per release
+      - Total number of incidents/defects
+      - Percentage of total defects found in test
+      - Mean time to resolution (MTTR) (hours)
+      - Response time to defects (hours)
+      - Customer retention (%)
+      - Adoption of new features (%)
+      - "Value" per release ($ revenue potential)
+      - Employee retention (%)
+      - Employee absenteeism (%)
+      - Employee Net Performance Score/satisfaction
+      - Customer Net Performance Score/satisfaction 
     - How increased business agility allows for innovation and decreased risks and costs
+      - Customers indicated that they accelerated their time to market by 18.8% by using AWS.
+      - Customers can pack more features and fixes in each release by 26.4%
+      - Customers ship their products fast, and they can include more features in each release. This affects 
+        the top line.
+      - Overall, AWS customers indicated that application revenue per user has increased by 33.8 
+        percent by using the cloud.
+      - Innovate by increasing "fail fast" while reducing risk and costs.
+        - Some of the most important activities that a healthy business must do to continue to grow 
+          and innovate are to scope, prioritize, and take on new initiatives.  You can think about the 
+          initiative process like a project funnel.
+        - Customers gain the power and flexibility to put more potential projects into the funnel for consideration.   
     - Customer examples
+        - Business Agility
+            - Conversion rates increase. 
 - Module 6: *Cloud Financial Management* (Primary Focus)
     - Four key areas of cloud financial management
     - Measurement and accountability
     - Cost optimization
     - Planning and forecasting
     - Cloud financial operations
-- Module 7: Introduction to Migration Portfolio Assessment (MPA)
+- Module 7: Introduction to Migration Portfolio Assessment (MPA
     - Who should use the MPA tool
     - When and how to use the MPA tool
     - How to access the MPA tool
@@ -548,6 +583,8 @@ is required for course completion.
 | CAPEX | Capital Expenditure Model; One common rule: two dollars in CAPEX is worth one dollar of OPEX. |
 | DDoS | Distributed Denial of Service |
 | UPS | Uninterruptable Power Supply |
+| KPIs | Key Performance Indicators |
+| MTTR | Mean time to resolution in hours |
 
 ### Amazon Terms 
 - AWS Landing Zone
@@ -607,7 +644,13 @@ is required for course completion.
 - Behavior
     - Is data usage tool spiky for Reserved Instances? Will Spot Instances work better?
 - Migration costs formula
-    - ROI = Cost savings / (Sunk costs + Migration costs)    
+    - ROI = Cost savings / (Sunk costs + Migration costs)   
+- Key Performance Indicators
+    - Where customers realize values. 
+- Code throughput
+    - How quickly an organization can move from committing code to deploying it.
+- System Stability
+    - Measure by how quickly a system can recover from downtime and how many changes succeed verses how many fail. 
 
     
     
