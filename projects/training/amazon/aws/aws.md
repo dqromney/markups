@@ -460,9 +460,32 @@ is required for course completion.
         - Computational or logic errors, such as faulty references, de-allocated memory, corrupt pointers, 
           sync errors, and race conditions.
         - Inadequate monitoring, such as the inability to identy issues, and 
-        - Failed upgrades, such as intercompatibility and integrations  
-      - Infrastructure
-    - Benefits of improved operational resilience
+        - Failed upgrades, such as intercompatibility and integrations
+      - How AWS helps
+        - Offices blue and green deployments that allow for quick rollbacks
+        - Automates continuous integration and continuous delivery workflow
+        - Runs smaller code deployments to reduce unit, integration, and system bugs
+        - Provides current and secure resources with OS patching, and 
+        - Creates and manages a collection of related AWS resources
+    - Infrastructure
+        - Causes for failure
+            - Hardware failure of servers, storage, or networks
+            - Natural disaster, like hurricanes, floods, and earthquakes
+            - Power outages, including failed power supplies and batteries
+            - Volumetric attacks, such as DDoS's; Domain Name System, or DNS, amplification; or UDP/ICMP floods.  
+        - How AWS helps
+            - AWS continues to expand our world-class infrastructure and leads the industry in improving data 
+              centers on a massive scale.
+            - Our customers can run applications and failover across multiple Availability Zones and Regions.
+            - AWS systems are designed to be highly available and durable. S3 is designed to provide eleven 
+              nines of durability and four nines of availability. Amazon Elastic Compute Cloud, or Amazon EC2, 
+              is designed for four nines of availability, and Amazone Elastic Block Store, Amazone EBS, volumes 
+              are designed for five nines of availability.
+            - As a standard, each AWS Availability Zone in each Region is redundantly connected to multiple 
+              tier-one transit providers. 
+            - And, AWS, every compute instance is served by two independent power sources, each with utility, 
+              UPS, and back-up generator power.  
+- Benefits of improved operational resilience
     - Causes and impacts of downtime
       - Third-party fees
       - Equipment replacement
@@ -525,6 +548,7 @@ is required for course completion.
 | OPEX | Operational Expenditure Model; One common rule: one dollar of OPEX is worth two dollars in CAPEX. |
 | CAPEX | Capital Expenditure Model; One common rule: two dollars in CAPEX is worth one dollar of OPEX. |
 | DDoS | Distributed Denial of Service |
+| UPS | Uninterruptable Power Supply |
 
 ### Amazon Terms 
 - AWS Landing Zone
