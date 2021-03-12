@@ -729,7 +729,36 @@ is required for course completion.
             - These metrics define what it means to be cost optimized, and tracking these metrics 
               is a way to measure inputs - these are cost-based metrics. Customers also need to know about what 
               they get for those dollars spent.
-- Module 7: Introduction to Migration Portfolio Assessment (MPA
+            - Value-based optimization metrics
+                - Unit Cost = Total Cost / Individual or unit cost
+                - A company's overall AWS cost should be evaluated as a unit cost ratio with respect to another 
+                  defined metric - customers should ask questions like:
+                  - What creates value for our business? or
+                  - What outcomes does this application or workload support?
+                    - Is it active subscribers?
+                    - Experimenting?
+                    - Products or business units?
+                  - Customers might also want to set up value-based metrics to better understand the 
+                    infrastructure costs in relation to the value it is creating. 
+            - Build and automate
+                - Identify always-on instances and recommend RI purchases
+                - Identify instances to downsize
+                - Automate idle instances and Amazon EBs volumes shut-down
+                - Automate storage aging from Amazon S3 to Amazon S3-IA, and the Amazon S3 Glacier.
+                - Present these outcomes:
+                    - Dashboards on status
+                    - Report on savings
+                - AWS Instance Scheduler is a simple AWS-provided solution that enables customers 
+                  to easily configure custom start and stop schedules for their Amazon EC2 and Amazon RDS 
+                  instances. 
+    - Summary
+        - Explain the concept of cloud financial management
+        - Identify the *four key areas of cloud financial management*
+            - Measurement and accountability
+            - Cost optimization
+            - Planning and forecasting
+            - Cloud financial operations
+- Module 7: Introduction to Migration Portfolio Assessment (MPA)
     - Who should use the MPA tool
     - When and how to use the MPA tool
     - How to access the MPA tool
@@ -774,6 +803,8 @@ is required for course completion.
 | ML | Machine Learning |
 | CoE | A center of excellence is responsible for helping align interests and behaviors across an organization. A good center of excellence has both IT and finance components. |
 | KPIs | Key Performance Indicators |
+| CMT | Cost Management Tools (AWS, or Cloudware, Cloudability, etc) |
+
 
 ### Amazon Terms 
 - AWS Landing Zone
@@ -845,7 +876,9 @@ is required for course completion.
 - AWS Cost Explorer
     - Identifies RI savings opportunities. 
 - On-demand capacity reservations
-    - Customers can combine regional RIs with capacity reservations to benefit from billing discounts. 
+    - Customers can combine regional RIs with capacity reservations to benefit from billing discounts.
+- Value-based optimization metrics
+    - Unit Cost = Total Cost / Individual or unit cost    
 
     
     
