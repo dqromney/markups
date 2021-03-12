@@ -703,7 +703,14 @@ is required for course completion.
         - Bridge the gap between agents and principles
             - Customers should create a center of excellence, or CoE, to bring together these two groups 
               (Finance and IT). A center of excellence is responsible for helping align interests and 
-              behaviors across an organization. A good center of excellence has both IT and finance components. 
+              behaviors across an organization. A good center of excellence has both IT and finance components.
+            - Team Responsibilities
+                - Align incentives
+                - Becoming the face of governance,
+                - Helping to drive automation,
+                - Reporting,
+                - Governance, and 
+                - Setting up and measuring key performance indicators, or KPIs, in the organization to track progress. 
 - Module 7: Introduction to Migration Portfolio Assessment (MPA
     - Who should use the MPA tool
     - When and how to use the MPA tool
@@ -748,6 +755,7 @@ is required for course completion.
 | IA | Infrequent Access |
 | ML | Machine Learning |
 | CoE | A center of excellence is responsible for helping align interests and behaviors across an organization. A good center of excellence has both IT and finance components. |
+| KPIs | Key Performance Indicators |
 
 ### Amazon Terms 
 - AWS Landing Zone
