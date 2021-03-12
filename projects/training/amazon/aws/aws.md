@@ -30,8 +30,7 @@ Using the AWS [Partner Learning Path Tool](https://pages.awscloud.com/AWS-Partne
 my learning path.  I my role is "Developer", and my Area of Focus is "Developer at an AWS Partner". 
 
 ##### AWS Technical Professional: (Completed 2021-03-09 with 83.33% ~ 25 points)
-This test took me about 30-45 minutes to complete.  I was taking notes during the test. 
-
+This test took me about 30-45 minutes to complete.  I was taking notes during the test.
 ###### Notes
 - Module 3: From Services to Solutions
     - Migration Strategies - The Six R's
@@ -62,7 +61,6 @@ This test took me about 30-45 minutes to complete.  I was taking notes during th
         - Increase elasticity
         - Choosing the right pricing model
         - Optimize storage
-    
 - Module 4: Presenting AWS Solutions to Customers
     - Preparing for discovery
         - Research customer's business
@@ -133,8 +131,7 @@ This test took me about 30-45 minutes to complete.  I was taking notes during th
         - Rapidly deploy architectures based upon best practices
         - Launch, configure, and run AWS services required to deploy a specific workload on AWS
         - Reduce manual procedures into a few steps
-        - Check back frequently for updates. 
-
+        - Check back frequently for updates.
 - Module 5: Looking Ahead
     - Solution implementation
         - The migration process
@@ -176,7 +173,6 @@ This test took me about 30-45 minutes to complete.  I was taking notes during th
             - Real-Time Analytics (Amazon Kinesis)
             - Operational Analytics (Amazon Elasticsearch Service)
             - Dashboards and Visualizations (Amazon QuickSight)
-
 - Module 6: AWS Partner Network (APN) Resources
     - APN consulting partner tier requirements
         - Registered
@@ -227,10 +223,9 @@ This test took me about 30-45 minutes to complete.  I was taking notes during th
         - AWS Professional Services
             - Develop and extend professional services competencies
 
-##### AWS Cloud Economics Accreditation: (Completed yyyy-mm-dd with 00.00% ~ n points)
+##### AWS Cloud Economics Accreditation: (Completed 2021-03-12 with 90.00%)
 Please complete all the of the modules below, and the course assessment.  A score of 80% or higher on the assessment 
-is required for course completion.
-
+is required for course completion.  
 ###### Notes
 - Module 1: Introduction to *Business Value* (Primary Focus)
     - It is more than just up front cost savings.
@@ -829,6 +824,9 @@ is required for course completion.
 - Module 8: Cost Savings with MPA
     - How to add and manipulate data with the MPA tool
     - Cost savings analyses with the MPA tool
+
+#### AWS ...
+###### Notes
 
 ### Amazon Acronyms
 | Acronym | Description  |
