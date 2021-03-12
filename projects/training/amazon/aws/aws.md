@@ -555,17 +555,42 @@ is required for course completion.
         automation to support cloud financial management.   
     - Measurement and accountability
       - Repeatable, sustainable cost management at scale.
-      - Enabling cost transparency (tags)
+      - Enabling cost transparency (tags) ~ Cost Allocation Tagging
         - What *cost center* does it belong to? This may belong to more than one. 
         - What *application or workload* does it support?
-        - *Who owns it*?
+        - *Who owns it*, or User?
         - What is the *expiration date*? When should it be turned off? This helps with Reserved Instance purchasing.
         - And lastly, *automation*. Automation tags can state directions such as "shut me down on the 
           weekend" for a non-production environmnet, or "This instance runs non-critical workloads and can 
           be freed up for disaster recovery in case of a malfunction on a different Availability Zone."
         - Note: Many APN Partners have built automated tagging tools, which can be helpful once they have built 
           their tagging strategy, including GorillaStack, Cloudability, and CloudHealth by VMWare.   
-    - Cost optimization
+      - Measuring and monitoring tools
+          - Cost and usage data
+          - Optimization recommendations
+          - Data-driven, cost-based decisions
+          - There are three main options for above:
+              - Option 1: DIY - Build a customer dashboard (Tableau)
+              - Option 2: AWS Partner Network (APN)
+                  - Customers can confidently manage AWS environments using a "guardrails" approach,
+                    while monitoring for any non-compliant activities. These partners specialize in providing
+                    solutions for administration and provisioning, cloud governance, and resource and cost optimization.
+              - Option 3: AWS tools - AWS Cost Explorer
+    - Cost optimization (Four key pillars)
+      - Right-sizing instances
+        - Selecting the least expensive instance available that meets the functional and performance requirements.
+          - Right-sizing is the process of reviewing deployed resources and seeking opportunities to downsize 
+            when possible.
+          - Look at CPU, RAM, storage, and network usage to identify potential instances that can be downsized. 
+            - AWS Cost Explorer identifies right-sizing opportunities
+            - Increase elasticity
+              - Turn off non-production instances
+                - Look for dev/test, non-production instances that are running always-on and turn them off.
+                - AWS Lambda + CloudWatch = Automated Scheduling
+          - Use Amazon CloudWatch metrics and set up custom RAM metrics
+      - Increasing application elasticity
+      - Choosing the right pricing model, and
+      - Optimizing storage
     - Planning and forecasting
     - Cloud financial operations
 - Module 7: Introduction to Migration Portfolio Assessment (MPA
@@ -606,6 +631,8 @@ is required for course completion.
 | UPS | Uninterruptable Power Supply |
 | KPIs | Key Performance Indicators |
 | MTTR | Mean time to resolution in hours |
+| CMT | Cloud Management Tools (Cloud Governance, Resource and Cost Optimization) |
+| RI | ? |
 
 ### Amazon Terms 
 - AWS Landing Zone
@@ -671,7 +698,9 @@ is required for course completion.
 - Code throughput
     - How quickly an organization can move from committing code to deploying it.
 - System Stability
-    - Measure by how quickly a system can recover from downtime and how many changes succeed verses how many fail. 
+    - Measure by how quickly a system can recover from downtime and how many changes succeed verses how many fail.
+- Right-sizing
+  - The process of reviewing deployed resources and seeking opportunities to downsize when possible.    
 
     
     
