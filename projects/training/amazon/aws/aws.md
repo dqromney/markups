@@ -454,37 +454,37 @@ is required for course completion.
                 - Denial of service attacks
                 - IAM to reduce or eliminate the existence of Rogue servers
                 - 30 plus compliance certifications for environments
-        - Software
+      - Software
+        - Causes for failure
+          - Resource exhaustion, like runaway processes, memory leaks, and file growth
+          - Computational or logic errors, such as faulty references, de-allocated memory, corrupt pointers, 
+            sync errors, and race conditions.
+          - Inadequate monitoring, such as the inability to identy issues, and 
+          - Failed upgrades, such as intercompatibility and integrations
+        - How AWS helps
+          - Offers blue and green deployments that allow for quick rollbacks
+          - Automates continuous integration and continuous delivery workflow
+          - Runs smaller code deployments to reduce unit, integration, and system bugs
+          - Provides current and secure resources with OS patching, and 
+          - Creates and manages a collection of related AWS resources
+      - Infrastructure
           - Causes for failure
-            - Resource exhaustion, like runaway processes, memory leaks, and file growth
-            - Computational or logic errors, such as faulty references, de-allocated memory, corrupt pointers, 
-              sync errors, and race conditions.
-            - Inadequate monitoring, such as the inability to identy issues, and 
-            - Failed upgrades, such as intercompatibility and integrations
+              - Hardware failure of servers, storage, or networks
+              - Natural disaster, like hurricanes, floods, and earthquakes
+              - Power outages, including failed power supplies and batteries
+              - Volumetric attacks, such as DDoS's; Domain Name System, or DNS, amplification; or UDP/ICMP floods.  
           - How AWS helps
-            - Offices blue and green deployments that allow for quick rollbacks
-            - Automates continuous integration and continuous delivery workflow
-            - Runs smaller code deployments to reduce unit, integration, and system bugs
-            - Provides current and secure resources with OS patching, and 
-            - Creates and manages a collection of related AWS resources
-        - Infrastructure
-            - Causes for failure
-                - Hardware failure of servers, storage, or networks
-                - Natural disaster, like hurricanes, floods, and earthquakes
-                - Power outages, including failed power supplies and batteries
-                - Volumetric attacks, such as DDoS's; Domain Name System, or DNS, amplification; or UDP/ICMP floods.  
-            - How AWS helps
-                - AWS continues to expand our world-class infrastructure and leads the industry in improving data 
-                  centers on a massive scale.
-                - Our customers can run applications and failover across multiple Availability Zones and Regions.
-                - AWS systems are designed to be highly available and durable. S3 is designed to provide eleven 
-                  nines of durability and four nines of availability. Amazon Elastic Compute Cloud, or Amazon EC2, 
-                  is designed for four nines of availability, and Amazone Elastic Block Store, Amazone EBS, volumes 
-                  are designed for five nines of availability.
-                - As a standard, each AWS Availability Zone in each Region is redundantly connected to multiple 
-                  tier-one transit providers. 
-                - And, AWS, every compute instance is served by two independent power sources, each with utility, 
-                  UPS, and back-up generator power.  
+              - AWS continues to expand our world-class infrastructure and leads the industry in improving data 
+                centers on a massive scale.
+              - Our customers can run applications and failover across multiple Availability Zones and Regions.
+              - AWS systems are designed to be highly available and durable. S3 is designed to provide eleven 
+                nines of durability and four nines of availability. Amazon Elastic Compute Cloud, or Amazon EC2, 
+                is designed for four nines of availability, and Amazon Elastic Block Store, Amazon EBS, volumes 
+                are designed for five nines of availability.
+              - As a standard, each AWS Availability Zone in each Region is redundantly connected to multiple 
+                tier-one transit providers. 
+              - And, AWS, every compute instance is served by two independent power sources, each with utility, 
+                UPS, and back-up generator power.  
     - Benefits of improved operational resilience
         - Causes and impacts of downtime
             - Third-party fees
@@ -511,7 +511,7 @@ is required for course completion.
       - New applications launched per year
       - Time to market for new applications
       - Time to provision new environments (days) 
-      - Deployment frequeny (revolutions/year)
+      - Deployment frequency (revolutions/year)
       - Time to deploy to production (weeks)
       - Time to deploy to test (days)
       - Features per release
@@ -698,7 +698,7 @@ is required for course completion.
       - Option 3: AWS Price List API.
         - For programmatic access to product pricing details and to receive alerts about price changes. 
       - Option 4: AWS Cost Explorer has improved trend-based forecasting, based on machine learning, or ML, 
-        and rules-basd models to predict spend across charge types. 
+        and rules-based models to predict spend across charge types. 
     - Cloud financial operations
         - Bridge the gap between agents and principles
             - Customers should create a center of excellence, or CoE, to bring together these two groups 
@@ -778,7 +778,52 @@ is required for course completion.
       - Provides directional sense without going too deep into the details of a target architecture. 
         Target architectures are AWS can differ significantly from on-premises architecture.
       - MPA streamlines, automates, and scales financial analyses. This helps project teams quickly 
-        transition to architecture discussions and proofs of concepts or PoFs.  
+        transition to architecture discussions and proofs of concepts, or PoCs.
+    - MPA Key features
+      - Guided data import
+        - Imports and validates on-premises data. MPA allows you to import CSV or Excel files that contain:
+            - Server,
+            - Application,
+            - Database,
+            - Server communication,
+            - Server-to-application mapping,
+            - Database-to-application mapping,
+            - Application-to-application dependency, and
+            - Shared storage and bandwidth data.
+        - Other common sources of MPA inputs:
+          - Configuration Mangement Database (CMDB) extract
+          - Automated discovery
+          - Manually gathered data
+        - MPA data import
+          - Data ingestion process
+            1. Identify the data want to import
+            2. Map the required data fields
+            3. Map the supplemental data fields
+            4. Once mapping is complete, check for duplicate records
+            5. Import the data
+            6. Check and resolve data issues
+        - Common issues
+            - Wrong RAM unit
+            - Specifying an incorrect storage unit size
+            - Incorrectly identifying the physical and virtual servers
+            - Using a CSV file with empty records
+            - Including both the host machine and guest virtual machine in the input file.
+      - Amazon Elastic Compute Cloud (Amazon EC2) and Amazon Elastic Block Store (Amazon EBS) recommendations
+          - MPA target recommendation
+              - Optimizing infrastructure spend:
+                  - Provision what you need
+                  - Turn off equipment when you don't need it
+                  - Get the lowest cost option automatically selected by MPA
+      - On-premises cost estimation and comparison
+        - A customer can look at the cost comparison summary report on the total cost of ownership, or TCO, 
+          summary page. The MPA's cost savings comparison includes views to compare on-premises infrastructure 
+          costs with equivalent AWS products and services, and yearly on-premises cashflow with yearly AWS 
+          cashflows. Customers can download a cost savings summary as a spreadsheet workbook.
+      - Migration pattern recommendation
+      - Migration project cost estimation
+      - What-if analysis and comparison
+      - On-premises data visualization
+      - Application grouping, prioritization, and migration planning
     - When and how to use the MPA tool
     - How to access the MPA tool
 - Module 8: Cost Savings with MPA
@@ -824,6 +869,8 @@ is required for course completion.
 | KPIs | Key Performance Indicators |
 | CMT | Cost Management Tools (AWS, or Cloudware, Cloudability, etc) |
 | MSMs | Migration Success Managers |
+| CMDB | Configuration Mangement Database |
+| IOPS | Input/Output Operations per Second (Storage) |
 
 
 ### Amazon Terms 
