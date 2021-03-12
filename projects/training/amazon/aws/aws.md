@@ -711,6 +711,24 @@ is required for course completion.
                 - Reporting,
                 - Governance, and 
                 - Setting up and measuring key performance indicators, or KPIs, in the organization to track progress. 
+        - Cost management questions for CoE
+            - How much of our environment is running at "steady state" and are candidates for RIs?
+              - If we are not buying RIs, what is stopping us from doing so?
+            - What's keeping us from reserving capacity?
+            - How are we currently handling our elasticity workload needs?
+            - How we had a well-architected review with AWS?
+            - How can we continue to optimize our AWS usage?
+        - Establish clear metrics and targets
+            - Customers must establish clear goals and metrics, and communicate their progress towards 
+              these goals across the organization. When it comes to metrics, customers should establish 
+              clear data points that tie back to the optimization pillars discussed earlier, such as:
+                - Percent of running EC2 instances that are covered by RIs
+                - Use of the RIs
+                - Percent of instances that are appropriately sized, and 
+                - Percent of instances running elastically and being turned off daily
+            - These metrics define what it means to be cost optimized, and tracking these metrics 
+              is a way to measure inputs - these are cost-based metrics. Customers also need to know about what 
+              they get for those dollars spent.
 - Module 7: Introduction to Migration Portfolio Assessment (MPA
     - Who should use the MPA tool
     - When and how to use the MPA tool
