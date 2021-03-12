@@ -759,7 +759,26 @@ is required for course completion.
             - Planning and forecasting
             - Cloud financial operations
 - Module 7: Introduction to Migration Portfolio Assessment (MPA)
-    - Who should use the MPA tool
+    - Who should use the MPA tool?
+      - The MPA tool can be used by consultants and sales teams focused on on-premises-to-cloud or 
+        cloud-to-cloud migration engagements, cloud business value, and cost analyses.
+      - With high-fidelity data, Migration Success Managers, or MSMs, and migration leads responsible 
+        for creating and executing the migration plan can use MPA to create a migration plan.
+    - How can MPA help?
+      - It can be used in the early stages of engagement to create a directional business case, known as discovery. 
+      - The MPA can be used to determine *project feasibility* factors, like:
+        - Evaluating total cost of ownership, or cost savings, 
+        - Creating comparisons between on-premises and AWS,
+        - Estimating migration project costs, or
+        - Right-sizing recommendations for a lift-and-shift migration.
+      - MPA can also be used to aid in migration planning, by providing assistance with:
+        - Application grouping
+        - Prioritization
+        - And wave planning.
+      - Provides directional sense without going too deep into the details of a target architecture. 
+        Target architectures are AWS can differ significantly from on-premises architecture.
+      - MPA streamlines, automates, and scales financial analyses. This helps project teams quickly 
+        transition to architecture discussions and proofs of concepts or PoFs.  
     - When and how to use the MPA tool
     - How to access the MPA tool
 - Module 8: Cost Savings with MPA
@@ -804,6 +823,7 @@ is required for course completion.
 | CoE | A center of excellence is responsible for helping align interests and behaviors across an organization. A good center of excellence has both IT and finance components. |
 | KPIs | Key Performance Indicators |
 | CMT | Cost Management Tools (AWS, or Cloudware, Cloudability, etc) |
+| MSMs | Migration Success Managers |
 
 
 ### Amazon Terms 
