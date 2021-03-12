@@ -583,16 +583,127 @@ is required for course completion.
             when possible.
           - Look at CPU, RAM, storage, and network usage to identify potential instances that can be downsized. 
             - AWS Cost Explorer identifies right-sizing opportunities
-            - Increase elasticity
-              - Turn off non-production instances
-                - Look for dev/test, non-production instances that are running always-on and turn them off.
-                - AWS Lambda + CloudWatch = Automated Scheduling
           - Use Amazon CloudWatch metrics and set up custom RAM metrics
       - Increasing application elasticity
-      - Choosing the right pricing model, and
+        - Turn off non-production instances
+        - Look for dev/test, non-production instances that are running always-on and turn them off.
+        - AWS Lambda + CloudWatch = Automated Scheduling
+          - A Customer can create an AWS Lambda function that can automate the starting and stopping of 
+            instances based on parameters like idling and time of day.
+        - Automatically scale production
+          - Use automatic scaling to scale up and down based on demand and usage (for example, spikes)
+            - Min and Max EC2 instances can be specified.
+      - Choosing the right pricing model (Three EC2 purchase Options), and
+        - *On-Demand Instances*
+          - Pay for compute capacity by the second with no long-term commitments
+            - Spiky workloads, to define needs. 
+        - *Reserved Instances* (RIs) - Require a 1 to 3 year commitment
+          - Have significant impact on savings compared to on-demand, in some cases up to 75 percent. 
+          - Used for workloads that need to run most of all of the time, such as production environments.
+          - *Regional benefits* can simplify reserved instance optimization by allow a reserved instance 
+            to be applied for the whole AWS Region, rather than just a specific Availability Zone, 
+            which can simplify capacity planning. It makes Reserved Instances Availability Zone agnostic, 
+            applying the discounted hourly rate to any instance in a specified Region.
+          - On-demand capacity reservations means:
+            - Reserving capacity for Amazon EC2 instance in a specific Availability Zone for any duration. 
+              This ensures access to EC2 capacity when needed, for as long as need.
+            - Capacity reservations can be created at anytime, without entering into a 1-year or 3 year 
+              term commitment, and the capacity is available immediately.
+            - Capacity reservations can be cancelled at anytime to stop incurring charges. 
+                - Capacity reservation pricing
+                    - A capacity reserveration is charged the equivalient on-demand rate. 
+                    - If customers do not use a reservation, it is shown as an unused reservation 
+                      on the customer's EC2 bill. 
+                    - Restrictions:
+                        - Zonal RI billing discounts do not apply to capacity reservations
+                        - Capacity reservations can't be created in placement groups. 
+                        - Capacity reservations can't be used with dedicated hosts. 
+                    - Convertable RIs for flexibility
+                        - With a Convertible Reserve Instance, customers can modify existing reservation across:
+                            - Instance families
+                            - Instance sizes
+                            - Operating systems
+                            - Tenancy
+                            - Not available for Regions. 
+                        - Exchange a Convertable RI - Exchange guidelines
+                            - Customers can exchange to the same value or higher of Convertible RIs.
+                            - Converted RIs retain the expiration data of the original RIs.
+                            - Converted RIs have the same term as the original RIs.
+                            - When exchanging a group of Convertible RIs:
+                                - Converted RIs have the lastest expiration data of the whole group.
+                                - In the case of multiple terms, converted RIs will be a 3-year RIs.
+        - *Spot Instances* (save money and time)
+            - Spare EC2 capacity at savings of up to 90% off On-Demand prices 
+                - Fault-tolerant, flexible, stateless workloads. AWS does not encourage customers to look 
+                  at ta single purchase option for their entire compute environment. 
+                - Customers can pay for Linux instances by the second and Windows instances by the hour. 
+            - Benefits
+                - Cost savings that it can drive
+                - The scale that it can provide to compute environments because the instances are less 
+                  expensive than on-demand and RIs.
+            - Simple Spot Instance Rules
+                - Spot infrastructure: 
+                    - Same as On-Demand and RIs:
+                      - Same hardware, same capabilities, same instances, same geo footprint (Regions and AZs) 
+                        but AWS can reclaim the instances with 2 minutes notice.
+                - Spot pricing
+                    - Set it and forget it pricing (changed in 2017)
+                    - NO BIDDING, big savings
+                - Diversity
+                    - Use diverse instance fleets (instance types and sizes) to spin up 1 MM core 
+                      (60,000+ instances) clusters.
+            - Handle interruptions: 2-minute notice
+                - Minimal interruptions
+                    - Over 95% of the intances were not interrupted in the last 3 months.
+                    - The work you are doing to make applications fault-tolerant also prepares you for Spot.
+                    - Spot is optimized for stateless, fault-torerant, or flexible workloads.
+                    - Any application that can have part or all of the work paused and resumed or restarted 
+                      can use Spot. 
+                    - Check for 2-minute interruption notification via instance metadata or Amazone CloudWatch 
+                      events and automate by:
+                        - Checkpointing (so that customer won't have start over from scratch)
+                        - Draining from the Elastic Load Balancing
+                        - Using stop-start and hibernate to restart faster (reconnect to data source)
+            - Lean on Spot for workloads
+                - Any workload that is fault tolerant, flexible, loosely coupled and stateless is going to be 
+                  a good candidate for Spot. 
+                - Examples: 
+                    - Big data
+                    - Continuous integration / Continuous Delivery (CI/CD)
+                    - Web Services
+                    - High performance computing (HPC)
+            - EC2 Fleet with EC2 Auto Scaling
+                - Automatically provision and scale instances across instance families and purchase models 
+                  Auto Scaling in a single Auto Scaling group. 
+                - Lowest cost
+                    - Specify what percentage of your Auto Scaling group capacity should be fulfilled by 
+                      On-Demand Instances, and Spot Instances to optimize cost.
+                - Prioritized list
+                    - Use for On-Demand Instance types to scale capacity during an urget, unpredictable 
+                      event to optimize performance. 
       - Optimizing storage
+        - S3 Storage classes
+            - (HOT) Standard for general-purpose storage of frequently accessed data;
+            - (HOT) Intelligent-Tiering for data with unknown or changing access patterns;
+            - (WARM) Standard-infrequent Access (S3 One Zone-IA) for long-lived, but less frequently accessed data; and
+            - (COLD) Amazon S3 Glacier and Amazon S3 Glacier Deep Archive for long-term archive and digital preservation. 
+        - S3 Intelligent-Tiering storage class
+            - Moves objects between two storage tiers:
+                - Frequent access tier optimized for frequent use of data
+                - Lower cost infrequent access tier optimized for less accessed data
     - Planning and forecasting
+      - Option 1: Use the new AWS Pricing Calculator to create a cost estimate for a new product that will be built 
+        using AWS services.
+      - Option 2: AWS service pricing pages
+      - Option 3: AWS Price List API.
+        - For programmatic access to product pricing details and to receive alerts about price changes. 
+      - Option 4: AWS Cost Explorer has improved trend-based forecasting, based on machine learning, or ML, 
+        and rules-basd models to predict spend across charge types. 
     - Cloud financial operations
+        - Bridge the gap between agents and principles
+            - Customers should create a center of excellence, or CoE, to bring together these two groups 
+              (Finance and IT). A center of excellence is responsible for helping align interests and 
+              behaviors across an organization. A good center of excellence has both IT and finance components. 
 - Module 7: Introduction to Migration Portfolio Assessment (MPA
     - Who should use the MPA tool
     - When and how to use the MPA tool
@@ -632,7 +743,11 @@ is required for course completion.
 | KPIs | Key Performance Indicators |
 | MTTR | Mean time to resolution in hours |
 | CMT | Cloud Management Tools (Cloud Governance, Resource and Cost Optimization) |
-| RI | ? |
+| RIs | Reserved Instances |
+| HPC | High performance computing |
+| IA | Infrequent Access |
+| ML | Machine Learning |
+| CoE | A center of excellence is responsible for helping align interests and behaviors across an organization. A good center of excellence has both IT and finance components. |
 
 ### Amazon Terms 
 - AWS Landing Zone
@@ -700,7 +815,11 @@ is required for course completion.
 - System Stability
     - Measure by how quickly a system can recover from downtime and how many changes succeed verses how many fail.
 - Right-sizing
-  - The process of reviewing deployed resources and seeking opportunities to downsize when possible.    
+  - The process of reviewing deployed resources and seeking opportunities to downsize when possible.  
+- AWS Cost Explorer
+    - Identifies RI savings opportunities. 
+- On-demand capacity reservations
+    - Customers can combine regional RIs with capacity reservations to benefit from billing discounts. 
 
     
     
