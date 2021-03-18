@@ -944,8 +944,4 @@ is required for course completion.
     - Customers can combine regional RIs with capacity reservations to benefit from billing discounts.
 - Value-based optimization metrics
     - Unit Cost = Total Cost / Individual or unit cost    
-
-    
-    
-    
     
