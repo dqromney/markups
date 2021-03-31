@@ -23,8 +23,8 @@ These are applications used to store documentation and source code for applicati
 * [GitHub](https:/github.com)
 
 ### CI/CD
-* [Jenkins](http://ub64:8080/)
-* [Artifactory](http://ub64:8081)
+* [Jenkins (local)](http://ub64:8080/) [Jenkins (external)](http://jenkins.hopto.org)
+* [Artifactory (local)](http://ub64:8081) [Artifactory (external)](http://artifactory.hopto.org)
 
 ### Other Servers
 * [WD My Cloud EX2 Ultra](http://mycloudex2ultra/)
@@ -33,6 +33,9 @@ These are applications used to store documentation and source code for applicati
 * [Kafka Manager](http://ub64:9001) ub64:9001
 * [Kafka Server](http://ub64:9003) http://ub64:9003
 * [Zookeeper Server](http://ub64:2181) ub64:2181
+* [Calibre Book Server (external)](http://books.hopto.org)
+* [JellyFin Media Server (external)](http://jel.hopto.org)
+* [Ubooquity E-Book Server (external)](http://ubooquity.hopto.org)
 
 
 ### Home Servers
