@@ -36,7 +36,7 @@ These are applications used to store documentation and source code for applicati
 * [Calibre Book Server (external)](http://books.hopto.org)
 * [JellyFin Media Server (external)](http://jel.hopto.org)
 * [Ubooquity E-Book Server (external)](http://ubooquity.hopto.org)
-
+* [How to Update Plex Media Server on Ubuntu](https://brianli.com/how-to-update-plex-media-server-on-ubuntu/#:~:text=How%20to%20Update%20Plex%20Media%20Server%20on%20Ubuntu,the%20following%20command%20to%20download%20the%20latest%20package.)
 
 ### Home Servers
 | Name  | IP  | ssh  | uname -a  | Description  |
